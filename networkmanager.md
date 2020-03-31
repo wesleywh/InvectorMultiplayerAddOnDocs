@@ -2,7 +2,7 @@
 
 # Core Object: NetworkManager  
 
-[Jump To Public Functions/Delegates](## Public Functions/Delegates)
+[Jump To Public Functions/Delegates](#function-anchor)
 
 ## Variables
 
@@ -100,6 +100,7 @@
 | On Connection Fail | Called when any sort of connection failure occurs. EX: Failing to connect to the lobby/photon room. |
 
 ## Public Functions/Delegates
+(#function-anchor)
 
 | Function | What It Does |
 |:---|:---|
