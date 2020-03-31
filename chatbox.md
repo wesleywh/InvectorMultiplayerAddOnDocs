@@ -13,6 +13,7 @@
 [Jump To Subscribe Events](#sub-events)<br/>
 [Jump To Message Events](#message-events)<br/>
 [Jump To Enable Events](#enable-events)<br/>
+[Jump To Public Functions](#functions)<br/>
 
 <p align="center">
 	<img src="https://i.imgur.com/0hAlLrB.jpg">
@@ -132,7 +133,7 @@
 | ChatEnabled | Called when you enable the chatbox |
 | ChatDisabled | Called when you disable the chatbox |
 
-## Public Functions
+## Public Functions<a name="functions"></a>
 
 | Function | What It Does |
 |:---|:---|
