@@ -3,6 +3,7 @@
 # Core Object: UICoreLogic  
 <p align="center">
 	<img src="https://i.imgur.com/TYHRbXn.jpg">
+</p>
 <br/>
 
 ### Core Options
