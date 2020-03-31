@@ -131,3 +131,31 @@
 |:--- |:---|
 | ChatEnabled | Called when you enable the chatbox |
 | ChatDisabled | Called when you disable the chatbox |
+
+## Public Functions
+
+| Function | What It Does |
+|:---|:---|
+| void BroadcastData(string channelName, object data) | Will send a `BroadCastMessage` event with the selected data |
+| Dictionary<string, string> BuildDataObj(object data) | Helper function used to return a proper data object that the chatbox will understand |
+| void SendMessage(string channelName, string message) | Send a generic chat message |
+| void ReceiveNewMessage(SentChatMessage incoming) | Used to generic the visual data for a generic chat message |
+| void ReceiveData(Type type, string incomingData) | Use to process incoming data |
+| void SubscribeToChannel(string channelName) | Subscribe to start receiving messages from a certain channel |
+| void UnSubscribeToChannel(string channelName) | Unsubscribe from a channel to stop receiving messages from it |
+| List<string> GetSubscribedChannels() | Returns a list of all the channels you're currently subscribed to |
+| void SetActiveChannel(string newChannel) | Used to refresh a channel and make it active |
+| void SetActiveRoomAsChannelName() | Make the saved `chatChannel` variable equal to the room name |
+| void Connect() | Connect to chat master server |
+| void Disconnect(string placeholder = "") | Disconnects from chat master server, placeholder is only used in conjunction with the NetworkManager string based events |
+| void Disconnect() | Disconnects from the chat master server |
+| void EnableChat(bool enabled) | Enables the gameobject and locks/unlocks the mouse |
+| bool IsEnabled() | Will tell you if the chatbox is enabled or not |
+| void EnableVisualBox(bool enabled) | enables/disables the chatbox visual elements |
+| string GetUserId() | Returns your chat clients user id to you |
+| List<string> GetChannelSubscribers(string channel) | Returns a list of subscribers of the target channel |
+| bool IsConnectedToDataChannel() | Returns true if you're connect to the data channel |
+| bool IsDictionary(object o) | Helper function to identify if an object is a dictionary |
+| void AutoScrollToBottom() | Will scroll the scroll rect to the bottom |
+| void DisplayNewChatIcon(bool enabled) | Will display the chat icon and play a sound or not |
+| void PlayChatNotificationSound() | Plays the chat notification sound |
