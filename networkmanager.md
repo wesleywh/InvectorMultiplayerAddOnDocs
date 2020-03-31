@@ -47,7 +47,7 @@
 | Connection Status | string | You can view the connection status on this component. This is normally referenced by other components |
 | Display Debug Window | bool | Will display a helpful window at runtime to help you debug things regarding photon settings |
 
-## Lobby Events
+### Lobby Events
 <p align="center">
 	<img src="https://i.imgur.com/mhNIt7l.jpg">
 </p>
@@ -58,7 +58,7 @@
 | On Joined Lobby | Called when you have successfully joined the photon lobby |
 | On Left Lobby | Called when you have successfully left the photon lobby |
 
-## Room Events
+### Room Events
 <p align="center">
 	<img src="https://i.imgur.com/jAVOhvo.jpg">
 </p>
@@ -72,7 +72,7 @@
 | On Create Room Failed | Called when you have failed to created a photon room |
 | On Join Room Failed | Called when you have failed to join a photon room |
 
-## Player Events
+### Player Events
 <p align="center">
 	<img src="https://i.imgur.com/Ljtb0in.jpg">
 </p>
@@ -83,7 +83,7 @@
 | On Player Entered Room | When another player has joined the photon room |
 | On Player Left Room | When another player has left the photon room |
 
-## Misc Events
+### Misc Events
 <p align="center">
 	<img src="https://i.imgur.com/dUYINVq.jpg">
 </p>
@@ -102,6 +102,8 @@
 | Function | What It Does |
 | :--- | :--- |
 | OnPlayerJoinedCurrentRoom | `(Delegate)` Can subscribe functions to this to get called when a Photon Player joins a photon room. |
+
+<!--
 | OnPlayerLeftCurrentRoom | `(Delegate)` Can subscribe functions to this to get called when a Photon Player leaves a photon room. |
 | void SetTeamName(string inputName) | Will set the NetworkManager team name according to the input |
 | Transform GetRandomSpawnPoint() | Gets a random spawn point based on the specified `Available Spawn Point` tag |
@@ -140,3 +142,4 @@
 | void SetRoomVisibility(bool isVisible) | Set the visibility state of this photon room when others list rooms in their own photon lobbies |
 | void ReplaySceneDatabase(bool createsOnly = false, bool updatesOnly = false) | Will replay all the saved actions that took place in this scene |
 | void UpdateSceneDatabase(ObjectAction hashData) | Add or remove actions to the scene database |
+-->
