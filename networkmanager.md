@@ -5,6 +5,7 @@
 	<img src="https://i.imgur.com/TlV0f7B.jpg">
 </p>
 <br/>
+<br/>
 
 ### Universal Settings
 | Variable Name | Type | Description |
