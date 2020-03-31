@@ -117,7 +117,7 @@
 | OnCountdownStart | Called when you receive a PhotonRaise Event of type "CB_EVENT_STARTCOUNTDOWN". This is enabled by calling the "SendStartCountdown" function |
 | OnCountdownStop | Called when you receive a PhotonRaise Event of type "CB_EVENT_STARTCOUNTDOWN". This is enabled by calling the "SendStopCountdown" function |
 
-## Public Functions
+## Public Functions<a name="functions"></a>
 
 | Function | What It Does |
 |:---|:---|
