@@ -2,6 +2,14 @@
 
 # Core Object: NetworkManager  
 
+[Jump To Universal Settings](#universal-settings)
+[Jump To Player Settings](#player-settings)
+[Jump To Spawn Settings](#spawn-settings)
+[Jump To Debug Settings](#debug-settings)
+[Jump To Lobby Events](#events-lobby)
+[Jump To Room Events](#events-room)
+[Jump To Player Events](#events-player)
+[Jump To Misc Events](#events-misc)
 [Jump To Public Functions/Delegates](#functions)
 
 ## Variables
@@ -11,7 +19,7 @@
 </p>
 <br/>
 
-### Universal Settings
+### Universal Settings<a name="universal-settings"></a>
 
 | Variable Name | Type | Description |
 |:--- |:---:|:---|
@@ -22,7 +30,7 @@
 | Database | SceneDatabase | Custom database that holds all the info about scenes and their entry points |
 
 
-### Player Settings
+### Player Settings<a name="player-settings"></a>
 
 | Variable Name | Type | Description |
 |:--- |:---:|:---|
@@ -31,7 +39,7 @@
 | Team Name | string | The name of the team you want the instantiated player to be on (If mutliple teams, leave blank)|
 | Initial Team Spawn Point Names | Dictionary<string, string> | The spawn point name that you want this particular team to look for an spawn at. If multiple will randomly choose one |
 
-### Spawn Settings
+### Spawn Settings<a name="spawn-settings"></a>
 
 | Variable Name | Type | Description |
 |:--- |:---:|:---|
@@ -39,7 +47,7 @@
 | Default Spawn Point | Transform | The point that will be chosen to spawn the player if no transform is found with teh `Available Spawn Tag` |
 | Available Spawn Tag | string | All transforms with this tag will be used as a possible spawn point | 
 
-### Debug Settings
+### Debug Settings<a name="debug-settings"></a>
 
 #### (These should all be disabled for a production game)
 
@@ -49,7 +57,7 @@
 | Connection Status | string | You can view the connection status on this component. This is normally referenced by other components |
 | Display Debug Window | bool | Will display a helpful window at runtime to help you debug things regarding photon settings |
 
-### Lobby Events
+### Lobby Events<a name="events-lobby"></a>
 <p align="center">
 	<img src="https://i.imgur.com/mhNIt7l.jpg">
 </p>
@@ -60,7 +68,7 @@
 | On Joined Lobby | Called when you have successfully joined the photon lobby |
 | On Left Lobby | Called when you have successfully left the photon lobby |
 
-### Room Events
+### Room Events<a name="events-room"></a>
 <p align="center">
 	<img src="https://i.imgur.com/jAVOhvo.jpg">
 </p>
@@ -74,7 +82,7 @@
 | On Create Room Failed | Called when you have failed to created a photon room |
 | On Join Room Failed | Called when you have failed to join a photon room |
 
-### Player Events
+### Player Events<a name="events-player"></a>
 <p align="center">
 	<img src="https://i.imgur.com/Ljtb0in.jpg">
 </p>
@@ -85,7 +93,7 @@
 | On Player Entered Room | When another player has joined the photon room |
 | On Player Left Room | When another player has left the photon room |
 
-### Misc Events
+### Misc Events<a name="events-misc"></a>
 <p align="center">
 	<img src="https://i.imgur.com/dUYINVq.jpg">
 </p>
