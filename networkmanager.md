@@ -102,8 +102,6 @@
 | Function | What It Does |
 |:---|:---|
 | OnPlayerJoinedCurrentRoom | `(Delegate)` Can subscribe functions to this to get called when a Photon Player joins a photon room. |
-
-<!--
 | OnPlayerLeftCurrentRoom | `(Delegate)` Can subscribe functions to this to get called when a Photon Player leaves a photon room. |
 | void SetTeamName(string inputName) | Will set the NetworkManager team name according to the input |
 | Transform GetRandomSpawnPoint() | Gets a random spawn point based on the specified `Available Spawn Point` tag |
@@ -142,4 +140,3 @@
 | void SetRoomVisibility(bool isVisible) | Set the visibility state of this photon room when others list rooms in their own photon lobbies |
 | void ReplaySceneDatabase(bool createsOnly = false, bool updatesOnly = false) | Will replay all the saved actions that took place in this scene |
 | void UpdateSceneDatabase(ObjectAction hashData) | Add or remove actions to the scene database |
--->
