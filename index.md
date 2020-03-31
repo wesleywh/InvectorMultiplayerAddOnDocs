@@ -3,6 +3,13 @@
 <img src="https://i.imgur.com/e7hkanq.png" width="70%">
 </p>
 
+## Documentation is available for the following components
+
+- Core Objects
+	- [NetworkManager](networkmanager.md)
+	- [ChatBox](chatbox.md)
+	- [UICoreLogic](uicorelogic.md)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/wesleywh/InvectorMultiplayerAddOnDocs/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
