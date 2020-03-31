@@ -3,6 +3,7 @@
 # Core Object: ChatBox  
 <p align="center">
 	<img src="https://i.imgur.com/0hAlLrB.jpg">
+</p>
 <br/>
 
 ### Sound Options
