@@ -2,7 +2,7 @@
 
 # Core Object: NetworkManager  
 
-[Jump To Public Functions/Delegates](##Public-Functions-And-Delegates)
+[Jump To Public Functions/Delegates](#functions)
 
 ## Variables
 
@@ -99,7 +99,7 @@
 | On Failed To Connect To Photon | Called when you fail to connect to the photon master server |
 | On Connection Fail | Called when any sort of connection failure occurs. EX: Failing to connect to the lobby/photon room. |
 
-##Public-Functions-And-Delegates
+## Public Functions/Delegates<a name="functions"></a>
 
 | Function | What It Does |
 |:---|:---|
