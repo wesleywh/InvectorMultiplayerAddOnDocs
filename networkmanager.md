@@ -15,6 +15,7 @@
 | Replay Scenes | bool | If you want the actions in a scene to persist between scenes |
 | Database | SceneDatabase | Custom database that holds all the info about scenes and their entry points |
 
+
 ### Player Settings
 | Variable Name | Type | Description |
 |:--- |:---:|:---|
