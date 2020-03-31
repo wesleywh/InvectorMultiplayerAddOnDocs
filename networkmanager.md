@@ -2,6 +2,8 @@
 
 # Core Object: NetworkManager  
 
+[Jump To Public Functions/Delegates](## Public Functions/Delegates)
+
 ## Variables
 
 <p align="center">
