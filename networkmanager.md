@@ -100,7 +100,7 @@
 ## Public Functions/Delegates
 
 | Function | What It Does |
-| :--- | :--- |
+|:---|:---|
 | OnPlayerJoinedCurrentRoom | `(Delegate)` Can subscribe functions to this to get called when a Photon Player joins a photon room. |
 
 <!--
