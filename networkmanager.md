@@ -8,8 +8,6 @@
 
 ### Universal Settings
 | Variable Name | Type | Description |
-|:--- |:---:|:---|
-
 | Game Version | float | Only matching game versions can play together |
 | Players Per Room | int | How many players are allowed to be in a photon room before it doesn't allow anymore |
 | Sync Scenes | bool | If you want everyone to be traveling between scenes together |
