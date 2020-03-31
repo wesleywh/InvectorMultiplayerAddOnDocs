@@ -2,14 +2,14 @@
 
 # Core Object: NetworkManager  
 
-[Jump To Universal Settings](#universal-settings)
-[Jump To Player Settings](#player-settings)
-[Jump To Spawn Settings](#spawn-settings)
-[Jump To Debug Settings](#debug-settings)
-[Jump To Lobby Events](#events-lobby)
-[Jump To Room Events](#events-room)
-[Jump To Player Events](#events-player)
-[Jump To Misc Events](#events-misc)
+[Jump To Universal Settings](#universal-settings)<br/>
+[Jump To Player Settings](#player-settings)<br/>
+[Jump To Spawn Settings](#spawn-settings)<br/>
+[Jump To Debug Settings](#debug-settings)<br/>
+[Jump To Lobby Events](#events-lobby)<br/>
+[Jump To Room Events](#events-room)<br/>
+[Jump To Player Events](#events-player)<br/>
+[Jump To Misc Events](#events-misc)<br/>
 [Jump To Public Functions/Delegates](#functions)
 
 ## Variables
