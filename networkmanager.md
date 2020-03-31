@@ -7,10 +7,9 @@
 <br/>
 
 ### Universal Settings
+
 | Variable Name | Type | Description |
-
 |:--- |:---:|:---|
-
 | Game Version | float | Only matching game versions can play together |
 | Players Per Room | int | How many players are allowed to be in a photon room before it doesn't allow anymore |
 | Sync Scenes | bool | If you want everyone to be traveling between scenes together |
@@ -19,6 +18,7 @@
 
 
 ### Player Settings
+
 | Variable Name | Type | Description |
 |:--- |:---:|:---|
 | Player Prefab | GameObject | The prefab that will be spawned when you NetworkInstantiate a player |
@@ -27,6 +27,7 @@
 | Initial Team Spawn Point Names | Dictionary<string, string> | The spawn point name that you want this particular team to look for an spawn at. If multiple will randomly choose one |
 
 ### Spawn Settings
+
 | Variable Name | Type | Description |
 |:--- |:---:|:---|
 | Auto Spawn Player | bool | If you want to automatically NetworkInstantiate the player when a scene is done loading |
@@ -34,7 +35,9 @@
 | Available Spawn Tag | string | All transforms with this tag will be used as a possible spawn point | 
 
 ### Debug Settings
+
 #### (These should all be disabled for a production game)
+
 | Variable Name | Type | Description |
 |:--- |:---:|:---|
 | Verbose Console Logging | bool | Every action taken by the network manager will be logged to the Unity console |
