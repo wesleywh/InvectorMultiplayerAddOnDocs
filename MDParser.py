@@ -410,7 +410,7 @@ class MDParser:
                     if "0" in value.keys():
                         self.print_list(value["0"], pad, path, file_handle)
                         value.pop("0")
-                    self.write_nested_index(value, file_handle, indent+4, indent, path)
+                    self.write_nested_index(value, file_handle, indent+3, indent, path)
             path = path[:path.find(f"{key}/")]
 
     def print_list(self, input_list, pad, path, file_handle):
@@ -421,7 +421,7 @@ class MDParser:
             len(self.contents[f"\\{tmp_path}{item}"]["DELEGATES"]) > 0 or 
             len(self.contents[f"\\{tmp_path}{item}"]["PARAMETERS"]) > 0):
                 display = item.replace(self.only_files,"",1)
-                file_handle.write(f"{pad}- [{display}]({path}{display}.md)\n")
+                file_handle.write(f"{pad}* [{display}]({path}{display}.md)\n")
     
     def can_print_key(self, value, path):
         if isinstance(value, dict):
