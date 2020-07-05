@@ -30,7 +30,7 @@
   - [SyncHealthController](Objects/SyncHealthController.md)
   - [SyncItemCollection](Objects/SyncItemCollection.md)
   - [SyncObject](Objects/SyncObject.md)
-     * Shooter
+ * Shooter
       - [ArrowView](Objects/Shooter/ArrowView.md)
       - [MP_Projectile](Objects/Shooter/MP_Projectile.md)
       - [MP_ShooterWeapon](Objects/Shooter/MP_ShooterWeapon.md)
@@ -41,22 +41,22 @@
   - [PlayerNameBar](Player/PlayerNameBar.md)
   - [PlayerRespawn](Player/PlayerRespawn.md)
   - [SyncPlayer](Player/SyncPlayer.md)
-     * Basic
+ * Basic
       - [MP_HeadTrack](Player/Basic/MP_HeadTrack.md)
       - [MP_vGenericAction](Player/Basic/MP_vGenericAction.md)
       - [MP_vSimpleInput](Player/Basic/MP_vSimpleInput.md)
-     * FreeClimb
+ * FreeClimb
       - [MP_vFreeClimb](Player/FreeClimb/MP_vFreeClimb.md)
-     * Melee
+ * Melee
       - [MP_vMeleeCombatInput](Player/Melee/MP_vMeleeCombatInput.md)
-     * Shooter
+ * Shooter
       - [MP_vShooterManager](Player/Shooter/MP_vShooterManager.md)
       - [MP_vShooterMeleeInput](Player/Shooter/MP_vShooterMeleeInput.md)
-     * Swimming
+ * Swimming
       - [MP_vSwimming](Player/Swimming/MP_vSwimming.md)
-     * Voice
+ * Voice
       - [VoiceChat](Player/Voice/VoiceChat.md)
-     * Zipline
+ * Zipline
       - [MP_vZipline](Player/Zipline/MP_vZipline.md)
  * Testing
   - [AutoConnect](Testing/AutoConnect.md)
@@ -67,23 +67,23 @@
   - [PlayerList](UI/PlayerList.md)
   - [PlayerListObject](UI/PlayerListObject.md)
   - [RoomButton](UI/RoomButton.md)
-     * Chatbox
+ * Chatbox
       - [BroadcastReceiver](UI/Chatbox/BroadcastReceiver.md)
       - [ChatMessage](UI/Chatbox/ChatMessage.md)
-     * Core
-         * UICoreLogic
+ * Core
+     * UICoreLogic
           - [UICoreLogic](UI/Core/UICoreLogic/UICoreLogic.md)
-     * Generics
+ * Generics
       - [GenericCountDown](UI/Generics/GenericCountDown.md)
       - [GenericEventCaller](UI/Generics/GenericEventCaller.md)
       - [KickPlayerButton](UI/Generics/KickPlayerButton.md)
-         * Enablers
+     * Enablers
           - [EnableIfAllPlayersReady](UI/Generics/Enablers/EnableIfAllPlayersReady.md)
           - [EnableIfChatConnected](UI/Generics/Enablers/EnableIfChatConnected.md)
           - [EnableIfOwner](UI/Generics/Enablers/EnableIfOwner.md)
           - [EnableIfSessionType](UI/Generics/Enablers/EnableIfSessionType.md)
           - [EnableIfTeam](UI/Generics/Enablers/EnableIfTeam.md)
-         * Trackers
+     * Trackers
           - [TrackConnectionStatus](UI/Generics/Trackers/TrackConnectionStatus.md)
           - [TrackPhotonRoomName](UI/Generics/Trackers/TrackPhotonRoomName.md)
           - [TrackPlayerCount](UI/Generics/Trackers/TrackPlayerCount.md)
@@ -93,8 +93,8 @@
           - [TrackSelectedTeam](UI/Generics/Trackers/TrackSelectedTeam.md)
           - [TrackSessionType](UI/Generics/Trackers/TrackSessionType.md)
           - [TrackVotes](UI/Generics/Trackers/TrackVotes.md)
-         * Visualizers
+     * Visualizers
           - [VisualizePlayers](UI/Generics/Visualizers/VisualizePlayers.md)
           - [VisualizeRooms](UI/Generics/Visualizers/VisualizeRooms.md)
-     * Legacy
+ * Legacy
       - [ExampleUI](UI/Legacy/ExampleUI.md)

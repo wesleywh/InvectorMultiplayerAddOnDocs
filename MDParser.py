@@ -395,21 +395,22 @@ class MDParser:
             target.write("\n\n")
             target.write("## Documentation is available for the following components")
             target.write("\n\n")
-            self.write_nested_index(sorted_dict, target, 0)
+            self.write_nested_index(sorted_dict, target, 0, 0)
                 
-    def write_nested_index(self, sorted_dict, file_handle, indent=0, path=""):
+    def write_nested_index(self, sorted_dict, file_handle, indent=0, prev_indent=0, path=""):
         pad = " "*indent
+        top_pad = " "*prev_indent
         for key, value in sorted_dict.items():
             path+=f"{key}/"
             if self.can_print_key(value, path):
-                file_handle.write(f"{pad} * {key}\n")
+                file_handle.write(f"{top_pad} * {key}\n")
                 if isinstance(value, list):
                     self.print_list(value, pad, path, file_handle)
                 elif isinstance(value,dict):
                     if "0" in value.keys():
                         self.print_list(value["0"], pad, path, file_handle)
                         value.pop("0")
-                    self.write_nested_index(value, file_handle, indent+4, path)
+                    self.write_nested_index(value, file_handle, indent+4, indent, path)
             path = path[:path.find(f"{key}/")]
 
     def print_list(self, input_list, pad, path, file_handle):
