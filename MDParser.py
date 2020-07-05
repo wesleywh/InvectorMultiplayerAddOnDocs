@@ -420,7 +420,7 @@ class MDParser:
             len(self.contents[f"\\{tmp_path}{item}"]["DELEGATES"]) > 0 or 
             len(self.contents[f"\\{tmp_path}{item}"]["PARAMETERS"]) > 0):
                 display = item.replace(self.only_files,"",1)
-                file_handle.write(f"{pad}* [{display}]({path}{display}.md)\n")
+                file_handle.write(f"{pad}- [{display}]({path}{display}.md)\n")
     
     def can_print_key(self, value, path):
         if isinstance(value, dict):
