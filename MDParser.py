@@ -393,7 +393,7 @@ class MDParser:
             target.write("<img src=\"https://i.imgur.com/e7hkanq.png\" width=\"70%\">")
             target.write("</p>")
             target.write("\n\n")
-            target.write(" ## Documentation is available for the following components")
+            target.write("## Documentation is available for the following components")
             target.write("\n\n")
             self.write_nested_index(sorted_dict, target, 0)
                 
