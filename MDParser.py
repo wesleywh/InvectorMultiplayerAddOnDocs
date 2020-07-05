@@ -409,7 +409,7 @@ class MDParser:
                     if "0" in value.keys():
                         self.print_list(value["0"], pad, path, file_handle)
                         value.pop("0")
-                    self.write_nested_index(value, file_handle, indent+1, path)
+                    self.write_nested_index(value, file_handle, indent+2, path)
             path = path[:path.find(f"{key}/")]
 
     def print_list(self, input_list, pad, path, file_handle):
