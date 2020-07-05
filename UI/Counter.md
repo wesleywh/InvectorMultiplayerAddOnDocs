@@ -14,7 +14,8 @@ Select the parameter name from below to jump directly to it on this page.
 [counterType](#parameter-counterType)<br>
 
 ------------------
- ### counter<a name="parameter-counter"></a>
+### counter<a name="parameter-counter"></a>
+
 > The text object that will display the number as it counts up/down.
 
 | Exposed Value | Type | Default Value |
@@ -24,7 +25,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### counterType<a name="parameter-counterType"></a>
+### counterType<a name="parameter-counterType"></a>
+
 > Do you want this to count up or down to the target amount?
 
 | Exposed Value | Type | Default Value |
@@ -41,7 +43,8 @@ Select the function name from below to jump directly to it on this page.
 [Update](#Update)<br>
 
 ------------------
- ### public void StartCounting(float amount)<a name="StartCounting"></a>
+### public void StartCounting(float amount)<a name="StartCounting"></a>
+
 >   Start counting down from the specified input amount. 
 
 | Expose Value | Overrideable | Returns |
@@ -55,7 +58,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### private void Update()<a name="Update"></a>
+### private void Update()<a name="Update"></a>
+
 >   Is responsible for counting down and setting the `counter` value. 
 
 | Expose Value | Overrideable | Returns |

@@ -17,7 +17,8 @@ Select the parameter name from below to jump directly to it on this page.
 [onStart](#parameter-onStart)<br>
 
 ------------------
- ### EventsToCall<a name="parameter-EventsToCall"></a>
+### EventsToCall<a name="parameter-EventsToCall"></a>
+
 > UnityEvent. List of user-defined events to call based on the specified settings.
 
 | Exposed Value | Type | Default Value |
@@ -27,7 +28,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### onAwake<a name="parameter-onAwake"></a>
+### onAwake<a name="parameter-onAwake"></a>
+
 > Call these events when this objects calls onAwake (before on start)
 
 | Exposed Value | Type | Default Value |
@@ -37,7 +39,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### onDisable<a name="parameter-onDisable"></a>
+### onDisable<a name="parameter-onDisable"></a>
+
 > Call these events when this gameobject is disabled
 
 | Exposed Value | Type | Default Value |
@@ -47,7 +50,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### onEnable<a name="parameter-onEnable"></a>
+### onEnable<a name="parameter-onEnable"></a>
+
 > Call these events when this gameobject is enabled.
 
 | Exposed Value | Type | Default Value |
@@ -57,7 +61,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### onStart<a name="parameter-onStart"></a>
+### onStart<a name="parameter-onStart"></a>
+
 > Call these events when starting this object
 
 | Exposed Value | Type | Default Value |
@@ -76,7 +81,8 @@ Select the function name from below to jump directly to it on this page.
 [Start](#Start)<br>
 
 ------------------
- ### protected virtual void Awake()<a name="Awake"></a>
+### protected virtual void Awake()<a name="Awake"></a>
+
 >   If the `onAwake` is true it will call the `EventsToCall` UnityEvent. 
 
 | Expose Value | Overrideable | Returns |
@@ -88,7 +94,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void OnDisable()<a name="OnDisable"></a>
+### protected virtual void OnDisable()<a name="OnDisable"></a>
+
 >   If the `onDisable` is true it will call the `EventsToCall` UnityEvent. 
 
 | Expose Value | Overrideable | Returns |
@@ -100,7 +107,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void OnEnable()<a name="OnEnable"></a>
+### protected virtual void OnEnable()<a name="OnEnable"></a>
+
 >   If the `onEnable` is true it will call the `EventsToCall` UnityEvent. 
 
 | Expose Value | Overrideable | Returns |
@@ -112,7 +120,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Start()<a name="Start"></a>
+### protected virtual void Start()<a name="Start"></a>
+
 >   If the `onStart` is true it will call the `EventsToCall` UnityEvent. 
 
 | Expose Value | Overrideable | Returns |

@@ -15,7 +15,8 @@ Select the parameter name from below to jump directly to it on this page.
 [teamName](#parameter-teamName)<br>
 
 ------------------
- ### checkType<a name="parameter-checkType"></a>
+### checkType<a name="parameter-checkType"></a>
+
 > ForEveryone=Does the NetworkManager teamName variable match this teamName variable?\n" <br>IfOwner=Are you the master client and does the NetworkManager teamName variable match this teamName variable?\n" <br>IfNotOwner=Are you NOT the master client and does the NetworkManager teamName variable match this teamName variable?
 
 | Exposed Value | Type | Default Value |
@@ -25,7 +26,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### items<a name="parameter-items"></a>
+### items<a name="parameter-items"></a>
+
 > List of items to enable or disable.
 
 | Exposed Value | Type | Default Value |
@@ -35,7 +37,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### teamName<a name="parameter-teamName"></a>
+### teamName<a name="parameter-teamName"></a>
+
 > Enable the selected items if you are on the team name.
 
 | Exposed Value | Type | Default Value |
@@ -52,7 +55,8 @@ Select the function name from below to jump directly to it on this page.
 [Update](#Update)<br>
 
 ------------------
- ### protected virtual void EnableItems(bool isEnabled)<a name="EnableItems"></a>
+### protected virtual void EnableItems(bool isEnabled)<a name="EnableItems"></a>
+
 >   Enable all the items or disable all the items based on the input value. 
 
 | Expose Value | Overrideable | Returns |
@@ -66,7 +70,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Update()<a name="Update"></a>
+### protected virtual void Update()<a name="Update"></a>
+
 >   Enable or disable the objects dynamically if the specified settings match. 
 
 | Expose Value | Overrideable | Returns |

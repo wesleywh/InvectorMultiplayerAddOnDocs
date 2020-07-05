@@ -17,7 +17,8 @@ Select the parameter name from below to jump directly to it on this page.
 [source](#parameter-source)<br>
 
 ------------------
- ### canPlay<a name="parameter-canPlay"></a>
+### canPlay<a name="parameter-canPlay"></a>
+
 > Can this audio source play sound?
 
 | Exposed Value | Type | Default Value |
@@ -27,7 +28,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### fadeIn<a name="parameter-fadeIn"></a>
+### fadeIn<a name="parameter-fadeIn"></a>
+
 > Not modifiable in the inspector. If you want to start fading in or out the sound. True = Fade in, False = Fade out
 
 | Exposed Value | Type | Default Value |
@@ -37,7 +39,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### fadeSpeed<a name="parameter-fadeSpeed"></a>
+### fadeSpeed<a name="parameter-fadeSpeed"></a>
+
 > How fast to fade in/out music. Higher values = Faster
 
 | Exposed Value | Type | Default Value |
@@ -47,7 +50,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### setVolume<a name="parameter-setVolume"></a>
+### setVolume<a name="parameter-setVolume"></a>
+
 > Not modifiable in the inspector. This is modified by other scripts setting its starting volume.
 
 | Exposed Value | Type | Default Value |
@@ -57,7 +61,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### source<a name="parameter-source"></a>
+### source<a name="parameter-source"></a>
+
 > The source where the sound will be played from.
 
 | Exposed Value | Type | Default Value |
@@ -74,7 +79,8 @@ Select the function name from below to jump directly to it on this page.
 [Update](#Update)<br>
 
 ------------------
- ### private void Start()<a name="Start"></a>
+### private void Start()<a name="Start"></a>
+
 >   Automatically sets the AudioSource to loop its sound. 
 
 | Expose Value | Overrideable | Returns |
@@ -86,7 +92,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### private void Update()<a name="Update"></a>
+### private void Update()<a name="Update"></a>
+
 >   Will fade in the sound if the setVolume is greater than zero and it is allowed to play. Will also fade out the sound if the setVolume is lower than the current volume and is allowed to player. Otherwise if it's zero it will stop the sound. 
 
 | Expose Value | Overrideable | Returns |

@@ -19,7 +19,8 @@ Select the function name from below to jump directly to it on this page.
 [TriggerWeakAttack](#TriggerWeakAttack)<br>
 
 ------------------
- ### public override void BreakAttack(int breakAtkID)<a name="BreakAttack"></a>
+### public override void BreakAttack(int breakAtkID)<a name="BreakAttack"></a>
+
 >   This makes this action only callable by the owner and networked players will not react to the input of the owner players. 
 
 | Expose Value | Overrideable | Returns |
@@ -31,7 +32,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void OnDisableAttack()<a name="OnDisableAttack"></a>
+### public override void OnDisableAttack()<a name="OnDisableAttack"></a>
+
 >   This makes this action only callable by the owner and networked players will not react to the input of the owner players. 
 
 | Expose Value | Overrideable | Returns |
@@ -43,7 +45,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void OnEnableAttack()<a name="OnEnableAttack"></a>
+### public override void OnEnableAttack()<a name="OnEnableAttack"></a>
+
 >   This makes this action only callable by the owner and networked players will not react to the input of the owner players. 
 
 | Expose Value | Overrideable | Returns |
@@ -55,7 +58,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void OnReceiveAttack(vDamage damage, vIMeleeFighter attacker)<a name="OnReceiveAttack"></a>
+### public override void OnReceiveAttack(vDamage damage, vIMeleeFighter attacker)<a name="OnReceiveAttack"></a>
+
 >   This makes this action only callable by the owner and networked players will not react to the input of the owner players. 
 
 | Expose Value | Overrideable | Returns |
@@ -67,7 +71,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void OnRecoil(int recoilID)<a name="OnRecoil"></a>
+### public override void OnRecoil(int recoilID)<a name="OnRecoil"></a>
+
 >   When the owner player recoils it calls `SetTriggers` RPC and `ResetTriggers` RPC for all network players to mimic what the owner player is doing. 
 
 | Expose Value | Overrideable | Returns |
@@ -81,7 +86,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void ResetAttackTriggers()<a name="ResetAttackTriggers"></a>
+### public override void ResetAttackTriggers()<a name="ResetAttackTriggers"></a>
+
 >   This makes this action only callable by the owner and networked players will not react to the input of the owner players. Also Calls the `ResetTriggers` with `WeakAttack` and `StrongAttack` over the network for the networked players to execute. 
 
 | Expose Value | Overrideable | Returns |
@@ -93,7 +99,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void TriggerStrongAttack()<a name="TriggerStrongAttack"></a>
+### public override void TriggerStrongAttack()<a name="TriggerStrongAttack"></a>
+
 >   When the owner makes a weak attack it calls `SetTriggers` RPC which has the network players make a strong attack to mimic what the owner player is doing. 
 
 | Expose Value | Overrideable | Returns |
@@ -105,7 +112,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void TriggerWeakAttack()<a name="TriggerWeakAttack"></a>
+### public override void TriggerWeakAttack()<a name="TriggerWeakAttack"></a>
+
 >   When the owner makes a weak attack it calls `SetTriggers` RPC which has the network players make a weak attack to mimic what the owner player is doing. 
 
 | Expose Value | Overrideable | Returns |

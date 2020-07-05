@@ -15,7 +15,8 @@ Select the parameter name from below to jump directly to it on this page.
 [texts](#parameter-texts)<br>
 
 ------------------
- ### images<a name="parameter-images"></a>
+### images<a name="parameter-images"></a>
+
 > The images to manipulate.
 
 | Exposed Value | Type | Default Value |
@@ -25,7 +26,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### indexNumberToTrack<a name="parameter-indexNumberToTrack"></a>
+### indexNumberToTrack<a name="parameter-indexNumberToTrack"></a>
+
 > The index of the `_randomRoomList` on the UICoreLogic to track
 
 | Exposed Value | Type | Default Value |
@@ -35,7 +37,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### texts<a name="parameter-texts"></a>
+### texts<a name="parameter-texts"></a>
+
 > The Text values to manipulate.
 
 | Exposed Value | Type | Default Value |
@@ -53,7 +56,8 @@ Select the function name from below to jump directly to it on this page.
 [SetText](#SetText)<br>
 
 ------------------
- ### protected virtual void FixedUpdate()<a name="FixedUpdate"></a>
+### protected virtual void FixedUpdate()<a name="FixedUpdate"></a>
+
 >   Sets the `images` and the `texts` to whatever the current `indexNumberToTrack` integer is set to. Will get that info from the `UICoreLogic`'s `_randomRoomList` variable. 
 
 | Expose Value | Overrideable | Returns |
@@ -65,7 +69,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void SetSprite(Sprite newImage)<a name="SetSprite"></a>
+### protected virtual void SetSprite(Sprite newImage)<a name="SetSprite"></a>
+
 >   Sets the input Sprite image value into all the `images` 
 
 | Expose Value | Overrideable | Returns |
@@ -79,7 +84,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void SetText(string inputText)<a name="SetText"></a>
+### protected virtual void SetText(string inputText)<a name="SetText"></a>
+
 >   Used to set the `texts` values to be whatever the input value is 
 
 | Expose Value | Overrideable | Returns |

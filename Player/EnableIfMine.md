@@ -13,7 +13,8 @@ Select the parameter name from below to jump directly to it on this page.
 [targets](#parameter-targets)<br>
 
 ------------------
- ### targets<a name="parameter-targets"></a>
+### targets<a name="parameter-targets"></a>
+
 > The list of gameobjects to enable if you are the " <br>owner player or not.
 
 | Exposed Value | Type | Default Value |
@@ -30,7 +31,8 @@ Select the function name from below to jump directly to it on this page.
 [Start](#Start)<br>
 
 ------------------
- ### protected virtual void EnableTargets(bool isEnabled)<a name="EnableTargets"></a>
+### protected virtual void EnableTargets(bool isEnabled)<a name="EnableTargets"></a>
+
 >   Loops through the `targets` and disables/enables them based on the input value. 
 
 | Expose Value | Overrideable | Returns |
@@ -44,7 +46,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Start()<a name="Start"></a>
+### protected virtual void Start()<a name="Start"></a>
+
 >   Enables/Disables the list of `targets` if you're the owner or not. This is done by calling the `EnableTargets` function. 
 
 | Expose Value | Overrideable | Returns |

@@ -16,7 +16,8 @@ Select the parameter name from below to jump directly to it on this page.
 [RoomType](#parameter-RoomType)<br>
 
 ------------------
- ### Password<a name="parameter-Password"></a>
+### Password<a name="parameter-Password"></a>
+
 > CONST string that is used by other classes when making the password key. Used in photon RoomProperty definitions.
 
 | Exposed Value | Type | Default Value |
@@ -26,7 +27,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### PrivateRoomType<a name="parameter-PrivateRoomType"></a>
+### PrivateRoomType<a name="parameter-PrivateRoomType"></a>
+
 > CONST string that is used by other classes when making a private room key. Used in photon RoomProperty definitions.
 
 | Exposed Value | Type | Default Value |
@@ -36,7 +38,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### PublicRoomType<a name="parameter-PublicRoomType"></a>
+### PublicRoomType<a name="parameter-PublicRoomType"></a>
+
 > CONST string that is used by other classes when making a public room key. Used in photon RoomProperty definitions.
 
 | Exposed Value | Type | Default Value |
@@ -46,7 +49,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### RoomName<a name="parameter-RoomName"></a>
+### RoomName<a name="parameter-RoomName"></a>
+
 > CONST string that is used by other classes when making the room name key. Used in photon RoomProperty definitions.
 
 | Exposed Value | Type | Default Value |
@@ -56,7 +60,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### RoomType<a name="parameter-RoomType"></a>
+### RoomType<a name="parameter-RoomType"></a>
+
 > CONST string that is used by other classes when making the room type key. Used in photon RoomProperty definitions.
 
 | Exposed Value | Type | Default Value |

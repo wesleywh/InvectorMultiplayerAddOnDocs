@@ -12,7 +12,8 @@ Select the function name from below to jump directly to it on this page.
 [TeamDamageCheck](#TeamDamageCheck)<br>
 
 ------------------
- ### public void TeamDamageCheck(vDamage damage)<a name="TeamDamageCheck"></a>
+### public void TeamDamageCheck(vDamage damage)<a name="TeamDamageCheck"></a>
+
 >   Will make the damage zero if you're hitting a teammate and team damage is set to false in the NetworkManager. 
 
 | Expose Value | Overrideable | Returns |

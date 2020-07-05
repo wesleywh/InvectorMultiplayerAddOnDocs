@@ -50,7 +50,8 @@ Select the parameter name from below to jump directly to it on this page.
 [yourChatMessage](#parameter-yourChatMessage)<br>
 
 ------------------
- ### ChatDisabled<a name="parameter-ChatDisabled"></a>
+### ChatDisabled<a name="parameter-ChatDisabled"></a>
+
 > UnityEvent. Called when you disable the chatbox.
 
 | Exposed Value | Type | Default Value |
@@ -60,7 +61,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### ChatEnabled<a name="parameter-ChatEnabled"></a>
+### ChatEnabled<a name="parameter-ChatEnabled"></a>
+
 > UnityEvent. Called when you enable the chatbox.
 
 | Exposed Value | Type | Default Value |
@@ -70,7 +72,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### OnReceiveBroadcastMessage<a name="parameter-OnReceiveBroadcastMessage"></a>
+### OnReceiveBroadcastMessage<a name="parameter-OnReceiveBroadcastMessage"></a>
+
 > UnityEvent. Called when you receive a Broadcast data message type.
 
 | Exposed Value | Type | Default Value |
@@ -80,7 +83,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### OnUserSubscribedToDataChannel<a name="parameter-OnUserSubscribedToDataChannel"></a>
+### OnUserSubscribedToDataChannel<a name="parameter-OnUserSubscribedToDataChannel"></a>
+
 > UnityEvent. Called when another player subscribes to the data chat channel.
 
 | Exposed Value | Type | Default Value |
@@ -90,7 +94,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### OnUserUnSubscribedToDataChannel<a name="parameter-OnUserUnSubscribedToDataChannel"></a>
+### OnUserUnSubscribedToDataChannel<a name="parameter-OnUserUnSubscribedToDataChannel"></a>
+
 > UnityEvent. Called when another player un-subscribes from the data chat channel.
 
 | Exposed Value | Type | Default Value |
@@ -100,7 +105,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### OnYouSubscribeToAnyChannel<a name="parameter-OnYouSubscribeToAnyChannel"></a>
+### OnYouSubscribeToAnyChannel<a name="parameter-OnYouSubscribeToAnyChannel"></a>
+
 > UnityEvent. Called when YOU as the owner subscribe to a any new chat channel.
 
 | Exposed Value | Type | Default Value |
@@ -110,7 +116,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### OnYouSubscribeToDataChannel<a name="parameter-OnYouSubscribeToDataChannel"></a>
+### OnYouSubscribeToDataChannel<a name="parameter-OnYouSubscribeToDataChannel"></a>
+
 > UnityEvent. Called when YOU as the owner subscribe to the data chat channel.
 
 | Exposed Value | Type | Default Value |
@@ -120,7 +127,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### OnYouUnSubscribeFromAnyChannel<a name="parameter-OnYouUnSubscribeFromAnyChannel"></a>
+### OnYouUnSubscribeFromAnyChannel<a name="parameter-OnYouUnSubscribeFromAnyChannel"></a>
+
 > UnityEvent. Called when YOU as the owner un-subscribe from any chat channel.
 
 | Exposed Value | Type | Default Value |
@@ -130,7 +138,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### OnYouUnSubscribeToDataChannel<a name="parameter-OnYouUnSubscribeToDataChannel"></a>
+### OnYouUnSubscribeToDataChannel<a name="parameter-OnYouUnSubscribeToDataChannel"></a>
+
 > UnityEvent. Called when YOU as the owner un-subscribe from the data chat channel.
 
 | Exposed Value | Type | Default Value |
@@ -140,7 +149,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### ReceivedAnyChatMessage<a name="parameter-ReceivedAnyChatMessage"></a>
+### ReceivedAnyChatMessage<a name="parameter-ReceivedAnyChatMessage"></a>
+
 > UnityEvent. Called whenever ANY chat message is received.
 
 | Exposed Value | Type | Default Value |
@@ -150,7 +160,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### ReceivedOtherPlayerChatMessage<a name="parameter-ReceivedOtherPlayerChatMessage"></a>
+### ReceivedOtherPlayerChatMessage<a name="parameter-ReceivedOtherPlayerChatMessage"></a>
+
 > UnityEvent. Called whenver you receive a chat message from someone else.
 
 | Exposed Value | Type | Default Value |
@@ -160,7 +171,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### authType<a name="parameter-authType"></a>
+### authType<a name="parameter-authType"></a>
+
 > What type of authenication you want to use with this chat.
 
 | Exposed Value | Type | Default Value |
@@ -170,7 +182,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### autoScroll<a name="parameter-autoScroll"></a>
+### autoScroll<a name="parameter-autoScroll"></a>
+
 > Whether or not you want to automatically scroll to the bottom when a new message comes in.
 
 | Exposed Value | Type | Default Value |
@@ -180,7 +193,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### chatAnim<a name="parameter-chatAnim"></a>
+### chatAnim<a name="parameter-chatAnim"></a>
+
 > The animator that controls the slide in/out actions of the chatbox.
 
 | Exposed Value | Type | Default Value |
@@ -190,7 +204,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### chatChannel<a name="parameter-chatChannel"></a>
+### chatChannel<a name="parameter-chatChannel"></a>
+
 > The default channel to subscribe to if you don't set the channel in other ways.
 
 | Exposed Value | Type | Default Value |
@@ -200,7 +215,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### chatNotification<a name="parameter-chatNotification"></a>
+### chatNotification<a name="parameter-chatNotification"></a>
+
 > The notification sound you want to play
 
 | Exposed Value | Type | Default Value |
@@ -210,7 +226,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### closeWindowOnPress<a name="parameter-closeWindowOnPress"></a>
+### closeWindowOnPress<a name="parameter-closeWindowOnPress"></a>
+
 > The buttons that are responsible for closing the chat window
 
 | Exposed Value | Type | Default Value |
@@ -220,7 +237,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### connectionStatus<a name="parameter-connectionStatus"></a>
+### connectionStatus<a name="parameter-connectionStatus"></a>
+
 > The text element that will display the connection status.
 
 | Exposed Value | Type | Default Value |
@@ -230,7 +248,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### enableOnConnect<a name="parameter-enableOnConnect"></a>
+### enableOnConnect<a name="parameter-enableOnConnect"></a>
+
 > When successfully connected display the chatbox.
 
 | Exposed Value | Type | Default Value |
@@ -240,7 +259,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### messagesObj<a name="parameter-messagesObj"></a>
+### messagesObj<a name="parameter-messagesObj"></a>
+
 > The object that will hold all the generate message objects.
 
 | Exposed Value | Type | Default Value |
@@ -250,7 +270,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### msgInput<a name="parameter-msgInput"></a>
+### msgInput<a name="parameter-msgInput"></a>
+
 > The input field where you can type a chat message.
 
 | Exposed Value | Type | Default Value |
@@ -260,7 +281,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### newMessageIcon<a name="parameter-newMessageIcon"></a>
+### newMessageIcon<a name="parameter-newMessageIcon"></a>
+
 > The icon that will appear when a new message is recieved.
 
 | Exposed Value | Type | Default Value |
@@ -270,7 +292,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### nm<a name="parameter-nm"></a>
+### nm<a name="parameter-nm"></a>
+
 > The network manager to reference. This will be things like the game version.
 
 | Exposed Value | Type | Default Value |
@@ -280,7 +303,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### notificationVolume<a name="parameter-notificationVolume"></a>
+### notificationVolume<a name="parameter-notificationVolume"></a>
+
 > How loud you want to play the notification sound.
 
 | Exposed Value | Type | Default Value |
@@ -290,7 +314,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### onlyWhenWindowClose<a name="parameter-onlyWhenWindowClose"></a>
+### onlyWhenWindowClose<a name="parameter-onlyWhenWindowClose"></a>
+
 > Only display the new message icon when the chat window is closed.
 
 | Exposed Value | Type | Default Value |
@@ -300,7 +325,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### openChatWindowOnPress<a name="parameter-openChatWindowOnPress"></a>
+### openChatWindowOnPress<a name="parameter-openChatWindowOnPress"></a>
+
 > The buttons that are responsible for opening the chat window
 
 | Exposed Value | Type | Default Value |
@@ -310,7 +336,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### otherChatMessage<a name="parameter-otherChatMessage"></a>
+### otherChatMessage<a name="parameter-otherChatMessage"></a>
+
 > The gameobject holding the \"ChatMessage\" component that will be generated when someone else sends you a message.
 
 | Exposed Value | Type | Default Value |
@@ -320,7 +347,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### parentChatObj<a name="parameter-parentChatObj"></a>
+### parentChatObj<a name="parameter-parentChatObj"></a>
+
 > The object that holds everything for your chat UI.
 
 | Exposed Value | Type | Default Value |
@@ -330,7 +358,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protocol<a name="parameter-protocol"></a>
+### protocol<a name="parameter-protocol"></a>
+
 > The protocol to use for your chat client
 
 | Exposed Value | Type | Default Value |
@@ -340,7 +369,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### region<a name="parameter-region"></a>
+### region<a name="parameter-region"></a>
+
 > The region you want to have this chat client be in.
 
 | Exposed Value | Type | Default Value |
@@ -350,7 +380,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### scrollRect<a name="parameter-scrollRect"></a>
+### scrollRect<a name="parameter-scrollRect"></a>
+
 > The scroll rect that controls the scrolling of the chatbox.
 
 | Exposed Value | Type | Default Value |
@@ -360,7 +391,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### sendChatOnPress<a name="parameter-sendChatOnPress"></a>
+### sendChatOnPress<a name="parameter-sendChatOnPress"></a>
+
 > Send your message on this keyboard press.
 
 | Exposed Value | Type | Default Value |
@@ -370,7 +402,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### slideIn<a name="parameter-slideIn"></a>
+### slideIn<a name="parameter-slideIn"></a>
+
 > The name of the animation to play when the chat box is enabled. If you have a chatAnim component supplied.
 
 | Exposed Value | Type | Default Value |
@@ -380,7 +413,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### slideOut<a name="parameter-slideOut"></a>
+### slideOut<a name="parameter-slideOut"></a>
+
 > The name of the animation to play when the chat box is disabled. If you have a chatAnim component supplied.
 
 | Exposed Value | Type | Default Value |
@@ -390,7 +424,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### source<a name="parameter-source"></a>
+### source<a name="parameter-source"></a>
+
 > Where the sound clip will play from.
 
 | Exposed Value | Type | Default Value |
@@ -400,7 +435,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### startEnabled<a name="parameter-startEnabled"></a>
+### startEnabled<a name="parameter-startEnabled"></a>
+
 > Start with the chatbox out and selected.
 
 | Exposed Value | Type | Default Value |
@@ -410,7 +446,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### yourChatMessage<a name="parameter-yourChatMessage"></a>
+### yourChatMessage<a name="parameter-yourChatMessage"></a>
+
 > The gameobject holding the \"ChatMessage\" component that will be generated when you send a message.
 
 | Exposed Value | Type | Default Value |
@@ -434,7 +471,8 @@ Select the delegate name from below to jump directly to it on this page.
 [OnUserUnSubFromChannel](#delegate-OnUserUnSubFromChannel)<br>
 
 ------------------
- ### public BasicDelegate OnConnectedToChat<a name="delegate-OnConnectedToChat"></a>
+### public BasicDelegate OnConnectedToChat<a name="delegate-OnConnectedToChat"></a>
+
 
 >   Called when you have successfully connected to the chat server. 
 
@@ -443,7 +481,8 @@ Select the delegate name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public BasicDelegate OnHideChatBox<a name="delegate-OnHideChatBox"></a>
+### public BasicDelegate OnHideChatBox<a name="delegate-OnHideChatBox"></a>
+
 
 >   Called when you hide/slide out the chatbox. 
 
@@ -452,7 +491,8 @@ Select the delegate name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public ChatDataMessage OnRecieveData<a name="delegate-OnRecieveData"></a>
+### public ChatDataMessage OnRecieveData<a name="delegate-OnRecieveData"></a>
+
 
 >   Called when you receive a data message in the chat. 
 
@@ -464,7 +504,8 @@ Select the delegate name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public SentChatMessageDelegate OnRecieveMessage<a name="delegate-OnRecieveMessage"></a>
+### public SentChatMessageDelegate OnRecieveMessage<a name="delegate-OnRecieveMessage"></a>
+
 
 >   Called when you receive a any message, data or chat. 
 
@@ -475,7 +516,8 @@ Select the delegate name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public BasicDelegate OnShowChatBox<a name="delegate-OnShowChatBox"></a>
+### public BasicDelegate OnShowChatBox<a name="delegate-OnShowChatBox"></a>
+
 
 >   Called when you show/slide in the chatbox. 
 
@@ -484,7 +526,8 @@ Select the delegate name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public ChatSubChannels OnSubscribedToChannles<a name="delegate-OnSubscribedToChannles"></a>
+### public ChatSubChannels OnSubscribedToChannles<a name="delegate-OnSubscribedToChannles"></a>
+
 
 >   Called when you unsubscribe from any channel. 
 
@@ -496,7 +539,8 @@ Select the delegate name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public ChatChannels OnUnSubscribedFromChannels<a name="delegate-OnUnSubscribedFromChannels"></a>
+### public ChatChannels OnUnSubscribedFromChannels<a name="delegate-OnUnSubscribedFromChannels"></a>
+
 
 >   Called when you subscribe to any channel. 
 
@@ -507,7 +551,8 @@ Select the delegate name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public ChatUserChannel OnUserSubToChannel<a name="delegate-OnUserSubToChannel"></a>
+### public ChatUserChannel OnUserSubToChannel<a name="delegate-OnUserSubToChannel"></a>
+
 
 >   Called when another user subscribes to any channel you're in. 
 
@@ -519,7 +564,8 @@ Select the delegate name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public ChatUserChannel OnUserUnSubFromChannel<a name="delegate-OnUserUnSubFromChannel"></a>
+### public ChatUserChannel OnUserUnSubFromChannel<a name="delegate-OnUserUnSubFromChannel"></a>
+
 
 >   Delegate. Called when another user un-subscribes to any channel you're in. 
 
@@ -576,7 +622,8 @@ Select the function name from below to jump directly to it on this page.
 [Update](#Update)<br>
 
 ------------------
- ### public virtual void AutoScrollToBottom()<a name="AutoScrollToBottom"></a>
+### public virtual void AutoScrollToBottom()<a name="AutoScrollToBottom"></a>
+
 >   Make the scroll view of the chatbox scroll to the bottom. 
 
 | Expose Value | Overrideable | Returns |
@@ -588,7 +635,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Awake()<a name="Awake"></a>
+### protected virtual void Awake()<a name="Awake"></a>
+
 >   Used to unlock the mouse and make the mouse cursor visible. Also generates your players unique hash for the chat. Finally makes sure the chat icon is turned off. 
 
 | Expose Value | Overrideable | Returns |
@@ -600,7 +648,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void BroadcastData(string channelName, object data)<a name="BroadcastData"></a>
+### public virtual void BroadcastData(string channelName, object data)<a name="BroadcastData"></a>
+
 >   Call this function to send data to a channel name to every player subscribed to that channel. Call 'BuildDataObj' function to format and build the serialized data string to send. 
 
 | Expose Value | Overrideable | Returns |
@@ -615,7 +664,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void Connect()<a name="Connect"></a>
+### public virtual void Connect()<a name="Connect"></a>
+
 >   Connect to the chat server. 
 
 | Expose Value | Overrideable | Returns |
@@ -627,7 +677,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void DebugReturn(DebugLevel level, string message)<a name="DebugReturn"></a>
+### public virtual void DebugReturn(DebugLevel level, string message)<a name="DebugReturn"></a>
+
 >   For debugging purposes only. Used to debug information 
 
 | Expose Value | Overrideable | Returns |
@@ -642,7 +693,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void Disconnect(string placeholder = "")<a name="Disconnect"></a>
+### public virtual void Disconnect(string placeholder = "")<a name="Disconnect"></a>
+
 >   Disconnect from the chat server. This is only used in scenarios with things that need a string input. Simply calls the Disconnect() function. 
 
 | Expose Value | Overrideable | Returns |
@@ -656,7 +708,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void Disconnect()<a name="Disconnect"></a>
+### public virtual void Disconnect()<a name="Disconnect"></a>
+
 >   Disconnect from the chat server. 
 
 | Expose Value | Overrideable | Returns |
@@ -668,7 +721,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void DisplayNewChatIcon(bool enabled)<a name="DisplayNewChatIcon"></a>
+### public virtual void DisplayNewChatIcon(bool enabled)<a name="DisplayNewChatIcon"></a>
+
 >   Enable or disable the chat icon. 
 
 | Expose Value | Overrideable | Returns |
@@ -682,7 +736,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void EnableChat(bool enabled)<a name="EnableChat"></a>
+### public virtual void EnableChat(bool enabled)<a name="EnableChat"></a>
+
 >   Enable/Disable the chatbox, Lock/Unlock the mouse, Hide/Show the mouse, Lock/Unlock camera movement, slide in/slide out the chatbox and selects/ deselects the inputfield. 
 
 | Expose Value | Overrideable | Returns |
@@ -696,7 +751,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void EnableVisualBox(bool enabled)<a name="EnableVisualBox"></a>
+### public virtual void EnableVisualBox(bool enabled)<a name="EnableVisualBox"></a>
+
 >   Hide/Show the actual chatbox (not sliding in or out), actually enable of disable the object itself. 
 
 | Expose Value | Overrideable | Returns |
@@ -710,7 +766,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void FindPlayerCam()<a name="FindPlayerCam"></a>
+### protected virtual void FindPlayerCam()<a name="FindPlayerCam"></a>
+
 >   Find the camera that you use to look around with your player. 
 
 | Expose Value | Overrideable | Returns |
@@ -722,7 +779,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual string GetUserId()<a name="GetUserId"></a>
+### public virtual string GetUserId()<a name="GetUserId"></a>
+
 >   Returns your unique userid for the chatbox 
 
 | Expose Value | Overrideable | Returns |
@@ -734,7 +792,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual bool IsConnectedToDataChannel()<a name="IsConnectedToDataChannel"></a>
+### public virtual bool IsConnectedToDataChannel()<a name="IsConnectedToDataChannel"></a>
+
 >   Returns the subscribers of this channel.   Returns true or false if you're currently subscribed to the data channel. 
 
 | Expose Value | Overrideable | Returns |
@@ -748,7 +807,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual bool IsDictionary(object o)<a name="IsDictionary"></a>
+### public virtual bool IsDictionary(object o)<a name="IsDictionary"></a>
+
 >   Internal used function, true or false if the passed in object is a dictionary or not. Used as part of the data channel parsing. 
 
 | Expose Value | Overrideable | Returns |
@@ -762,7 +822,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual bool IsEnabled()<a name="IsEnabled"></a>
+### public virtual bool IsEnabled()<a name="IsEnabled"></a>
+
 >   Returns true or false if the chatbox is active 
 
 | Expose Value | Overrideable | Returns |
@@ -774,7 +835,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### private bool IsPressingButton(List<string> codes)<a name="IsPressingButton"></a>
+### private bool IsPressingButton(List<string> codes)<a name="IsPressingButton"></a>
+
 >   Returns true if pressing one of the passed in button names. 
 
 | Expose Value | Overrideable | Returns |
@@ -788,7 +850,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnApplicationQuit()<a name="OnApplicationQuit"></a>
+### public virtual void OnApplicationQuit()<a name="OnApplicationQuit"></a>
+
 >   To avoid that the Editor becomes unresponsive, disconnect all Photon connections in OnApplicationQuit. 
 
 | Expose Value | Overrideable | Returns |
@@ -800,7 +863,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnChatStateChange(ChatState state)<a name="OnChatStateChange"></a>
+### public virtual void OnChatStateChange(ChatState state)<a name="OnChatStateChange"></a>
+
 >   Callback method. Called whenever your connection status changes 
 
 | Expose Value | Overrideable | Returns |
@@ -814,7 +878,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnConnected()<a name="OnConnected"></a>
+### public virtual void OnConnected()<a name="OnConnected"></a>
+
 >   Callback method. Called when you are connected to the chat server 
 
 | Expose Value | Overrideable | Returns |
@@ -826,7 +891,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnDestroy()<a name="OnDestroy"></a>
+### public virtual void OnDestroy()<a name="OnDestroy"></a>
+
 >   To avoid that the Editor becoming unresponsive, disconnect all Photon connections in OnDestroy. 
 
 | Expose Value | Overrideable | Returns |
@@ -838,7 +904,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnDisconnected()<a name="OnDisconnected"></a>
+### public virtual void OnDisconnected()<a name="OnDisconnected"></a>
+
 >   Callback method. Called when you get disconnected from the chat server 
 
 | Expose Value | Overrideable | Returns |
@@ -850,7 +917,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnGetMessages(string channelName, string[] senders, object[] messages)<a name="OnGetMessages"></a>
+### public virtual void OnGetMessages(string channelName, string[] senders, object[] messages)<a name="OnGetMessages"></a>
+
 >   Callback method. Called whenever you receive a new message on ANY subscribed channel 
 
 | Expose Value | Overrideable | Returns |
@@ -866,7 +934,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnPrivateMessage(string sender, object message, string channelName)<a name="OnPrivateMessage"></a>
+### public virtual void OnPrivateMessage(string sender, object message, string channelName)<a name="OnPrivateMessage"></a>
+
 >   Callback method. Called whenever you receive a private message 
 
 | Expose Value | Overrideable | Returns |
@@ -882,7 +951,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnStatusUpdate(string user, int status, bool gotMessage, object message)<a name="OnStatusUpdate"></a>
+### public virtual void OnStatusUpdate(string user, int status, bool gotMessage, object message)<a name="OnStatusUpdate"></a>
+
 >   Callback method. Called when a user's status has updated. 
 
 | Expose Value | Overrideable | Returns |
@@ -899,7 +969,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnSubscribed(string[] channels, bool[] results)<a name="OnSubscribed"></a>
+### public virtual void OnSubscribed(string[] channels, bool[] results)<a name="OnSubscribed"></a>
+
 >   Callback method. Called when you subscribed to a channel. 
 
 | Expose Value | Overrideable | Returns |
@@ -914,7 +985,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnUnsubscribed(string[] channels)<a name="OnUnsubscribed"></a>
+### public virtual void OnUnsubscribed(string[] channels)<a name="OnUnsubscribed"></a>
+
 >   Callback method. Called when you unsubscribe from a channel 
 
 | Expose Value | Overrideable | Returns |
@@ -928,7 +1000,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnUserSubscribed(string channel, string user)<a name="OnUserSubscribed"></a>
+### public virtual void OnUserSubscribed(string channel, string user)<a name="OnUserSubscribed"></a>
+
 >   Callback method. Called when another user subscribes to a channel. 
 
 | Expose Value | Overrideable | Returns |
@@ -943,7 +1016,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void OnUserUnsubscribed(string channel, string user)<a name="OnUserUnsubscribed"></a>
+### public virtual void OnUserUnsubscribed(string channel, string user)<a name="OnUserUnsubscribed"></a>
+
 >   Callback method. Called when another user un-subscribes from a channel. 
 
 | Expose Value | Overrideable | Returns |
@@ -958,7 +1032,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void PlayChatNotificationSound()<a name="PlayChatNotificationSound"></a>
+### public virtual void PlayChatNotificationSound()<a name="PlayChatNotificationSound"></a>
+
 >   Play the notification sound from the specific sound source in the parameters. 
 
 | Expose Value | Overrideable | Returns |
@@ -970,7 +1045,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void ReceiveData(Type type, string incomingData)<a name="ReceiveData"></a>
+### public virtual void ReceiveData(Type type, string incomingData)<a name="ReceiveData"></a>
+
 >   Use to receive serialized data convert it back to its original type and call an action based on the type of data that was recieved. 
 
 | Expose Value | Overrideable | Returns |
@@ -985,7 +1061,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void ReceiveNewMessage(SentChatMessage incoming)<a name="ReceiveNewMessage"></a>
+### public virtual void ReceiveNewMessage(SentChatMessage incoming)<a name="ReceiveNewMessage"></a>
+
 >   Receive a message that was sent by another player and instantiate a new line in the chatbox with this information. Then trigger to display the chat icon. 
 
 | Expose Value | Overrideable | Returns |
@@ -999,7 +1076,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void SceneLoaded(Scene scene, LoadSceneMode mode)<a name="SceneLoaded"></a>
+### protected virtual void SceneLoaded(Scene scene, LoadSceneMode mode)<a name="SceneLoaded"></a>
+
 >   Callback method. Called when a scene has successfully loaded. This will call 'FindPlayerCam' function. 
 
 | Expose Value | Overrideable | Returns |
@@ -1014,7 +1092,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SendMessage(string channelName, string message)<a name="SendMessage"></a>
+### public virtual void SendMessage(string channelName, string message)<a name="SendMessage"></a>
+
 >   Take an object and return a serialized version of it to send in data chatbox channels.   Send a string message to a channel name  that you're already subscribed to. 
 
 | Expose Value | Overrideable | Returns |
@@ -1030,7 +1109,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SetActiveChannel(string newChannel)<a name="SetActiveChannel"></a>
+### public virtual void SetActiveChannel(string newChannel)<a name="SetActiveChannel"></a>
+
 >   Returns a list of all the channel names that you're subscribed to   Un-subscribe from the previous 'active' channel and subscribe to this channel, making it your currently active one. 
 
 | Expose Value | Overrideable | Returns |
@@ -1044,7 +1124,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SetActiveRoomAsChannelName()<a name="SetActiveRoomAsChannelName"></a>
+### public virtual void SetActiveRoomAsChannelName()<a name="SetActiveRoomAsChannelName"></a>
+
 >   Unsubscribe from the previous 'active' channel and subscribe to a channel name that is the same as the current Photon Room you're in. 
 
 | Expose Value | Overrideable | Returns |
@@ -1056,7 +1137,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void SetMyPlayer()<a name="SetMyPlayer"></a>
+### protected virtual void SetMyPlayer()<a name="SetMyPlayer"></a>
+
 >   Finds your player and populates internal variables so the chatbox can enable or disable various aspects of your character when the box is open or closed. 
 
 | Expose Value | Overrideable | Returns |
@@ -1068,7 +1150,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Start()<a name="Start"></a>
+### protected virtual void Start()<a name="Start"></a>
+
 >   Used to setup various settings in the chatbox like chat length, chat app settings, authentication values, finding player camera, finding your player, etc. 
 
 | Expose Value | Overrideable | Returns |
@@ -1080,7 +1163,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SubscribeToChannel(string channelName)<a name="SubscribeToChannel"></a>
+### public virtual void SubscribeToChannel(string channelName)<a name="SubscribeToChannel"></a>
+
 >   The channel name you want to subscribe to. 
 
 | Expose Value | Overrideable | Returns |
@@ -1094,7 +1178,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void UnSubscribeToChannel(string channelName)<a name="UnSubscribeToChannel"></a>
+### public virtual void UnSubscribeToChannel(string channelName)<a name="UnSubscribeToChannel"></a>
+
 >   The channel name you want to un-subscribe from. 
 
 | Expose Value | Overrideable | Returns |
@@ -1108,7 +1193,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Update()<a name="Update"></a>
+### protected virtual void Update()<a name="Update"></a>
+
 >   Used to constantly ping the chat master server to keep that chatbox alive and capture new messages. Also watches for player input to enable/disable the chatbox. 
 
 | Expose Value | Overrideable | Returns |

@@ -13,7 +13,8 @@ Select the parameter name from below to jump directly to it on this page.
 [playerInfo](#parameter-playerInfo)<br>
 
 ------------------
- ### playerInfo<a name="parameter-playerInfo"></a>
+### playerInfo<a name="parameter-playerInfo"></a>
+
 > The object that holds all the player data that can be referenced by this component.
 
 | Exposed Value | Type | Default Value |
@@ -29,7 +30,8 @@ Select the function name from below to jump directly to it on this page.
 [KickPlayer](#KickPlayer)<br>
 
 ------------------
- ### public virtual void KickPlayer()<a name="KickPlayer"></a>
+### public virtual void KickPlayer()<a name="KickPlayer"></a>
+
 >   This is only callable if you're the MasterClient. Gets the player data from the `playerInfo` and calls the `KickPlayer` function from the `UICoreLogic`. 
 
 | Expose Value | Overrideable | Returns |

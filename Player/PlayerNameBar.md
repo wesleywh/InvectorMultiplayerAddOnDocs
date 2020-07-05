@@ -14,7 +14,8 @@ Select the parameter name from below to jump directly to it on this page.
 [playerName](#parameter-playerName)<br>
 
 ------------------
- ### playerBar<a name="parameter-playerBar"></a>
+### playerBar<a name="parameter-playerBar"></a>
+
 > The holder object for the player name bar. Will disable this if not a network version of this player.
 
 | Exposed Value | Type | Default Value |
@@ -24,7 +25,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### playerName<a name="parameter-playerName"></a>
+### playerName<a name="parameter-playerName"></a>
+
 > The text to modify with the Network Nickname.
 
 | Exposed Value | Type | Default Value |
@@ -41,7 +43,8 @@ Select the function name from below to jump directly to it on this page.
 [SetPlayerName](#SetPlayerName)<br>
 
 ------------------
- ### public virtual void Awake()<a name="Awake"></a>
+### public virtual void Awake()<a name="Awake"></a>
+
 >   Removes the namebar if you're the owner player. Also sets the name on your networked versions via `SetPlayerName` function. 
 
 | Expose Value | Overrideable | Returns |
@@ -53,7 +56,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SetPlayerName(string nameText)<a name="SetPlayerName"></a>
+### public virtual void SetPlayerName(string nameText)<a name="SetPlayerName"></a>
+
 >   Sets the name shown on the name bar to whatever is passed in via the input. Calls `NetworkSetPlayerName` RPC to set the name over the network. 
 
 | Expose Value | Overrideable | Returns |

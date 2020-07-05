@@ -14,7 +14,8 @@ Select the parameter name from below to jump directly to it on this page.
 [playerName](#parameter-playerName)<br>
 
 ------------------
- ### message<a name="parameter-message"></a>
+### message<a name="parameter-message"></a>
+
 > A Text value to display the players message.
 
 | Exposed Value | Type | Default Value |
@@ -24,7 +25,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### playerName<a name="parameter-playerName"></a>
+### playerName<a name="parameter-playerName"></a>
+
 > A Text value to display the players name.
 
 | Exposed Value | Type | Default Value |
@@ -40,7 +42,8 @@ Select the function name from below to jump directly to it on this page.
 [SetMessage](#SetMessage)<br>
 
 ------------------
- ### public virtual void SetMessage(SentChatMessage incoming)<a name="SetMessage"></a>
+### public virtual void SetMessage(SentChatMessage incoming)<a name="SetMessage"></a>
+
 >   Sets the `playerName` and `message` text values based on the values in the `SentChatMessage` object. 
 
 | Expose Value | Overrideable | Returns |

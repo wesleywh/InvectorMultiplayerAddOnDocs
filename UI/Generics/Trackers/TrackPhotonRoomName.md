@@ -13,7 +13,8 @@ Select the parameter name from below to jump directly to it on this page.
 [texts](#parameter-texts)<br>
 
 ------------------
- ### texts<a name="parameter-texts"></a>
+### texts<a name="parameter-texts"></a>
+
 > List of Text values to set.
 
 | Exposed Value | Type | Default Value |
@@ -30,7 +31,8 @@ Select the function name from below to jump directly to it on this page.
 [SetText](#SetText)<br>
 
 ------------------
- ### protected virtual void FixedUpdate()<a name="FixedUpdate"></a>
+### protected virtual void FixedUpdate()<a name="FixedUpdate"></a>
+
 >   Set the text values according to the current photon room name dynamically. 
 
 | Expose Value | Overrideable | Returns |
@@ -42,7 +44,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void SetText(string inputText)<a name="SetText"></a>
+### protected virtual void SetText(string inputText)<a name="SetText"></a>
+
 >   Set the `texts` values according to the input value. 
 
 | Expose Value | Overrideable | Returns |

@@ -14,7 +14,8 @@ Select the parameter name from below to jump directly to it on this page.
 [volume](#parameter-volume)<br>
 
 ------------------
- ### randomMusic<a name="parameter-randomMusic"></a>
+### randomMusic<a name="parameter-randomMusic"></a>
+
 > The music clip to use.
 
 | Exposed Value | Type | Default Value |
@@ -24,7 +25,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### volume<a name="parameter-volume"></a>
+### volume<a name="parameter-volume"></a>
+
 > The volume to set the audio source to.
 
 | Exposed Value | Type | Default Value |
@@ -40,7 +42,8 @@ Select the function name from below to jump directly to it on this page.
 [PlayWorldMusic](#PlayWorldMusic)<br>
 
 ------------------
- ### public void PlayWorldMusic()<a name="PlayWorldMusic"></a>
+### public void PlayWorldMusic()<a name="PlayWorldMusic"></a>
+
 >   Will play the set audio clip at the set volume only after there is a found NetworkManager and UICoreLogic component attached to it in the scene. It will use the UICoreLogic functions to set the audio clip on the UICoreLogic component to the volume and audio clip to use. 
 
 | Expose Value | Overrideable | Returns |

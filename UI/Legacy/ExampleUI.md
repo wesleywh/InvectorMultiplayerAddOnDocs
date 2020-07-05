@@ -62,7 +62,8 @@ Select the parameter name from below to jump directly to it on this page.
 [uiFadeSpeed](#parameter-uiFadeSpeed)<br>
 
 ------------------
- ### AvailableRooms<a name="parameter-AvailableRooms"></a>
+### AvailableRooms<a name="parameter-AvailableRooms"></a>
+
 > The transform element in your UI that will be used as a parent object for your room button.
 
 | Exposed Value | Type | Default Value |
@@ -72,7 +73,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### AvailableScenes<a name="parameter-AvailableScenes"></a>
+### AvailableScenes<a name="parameter-AvailableScenes"></a>
+
 > The transform element in your UI that will be used as a parent object for your available scenes buttons. This is a child element of your \"ChooseRoomPage\
 
 | Exposed Value | Type | Default Value |
@@ -82,7 +84,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### ChooseRoomPage<a name="parameter-ChooseRoomPage"></a>
+### ChooseRoomPage<a name="parameter-ChooseRoomPage"></a>
+
 > The page that is displayed when there is more than one available room to join.
 
 | Exposed Value | Type | Default Value |
@@ -92,7 +95,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### HostGamePage<a name="parameter-HostGamePage"></a>
+### HostGamePage<a name="parameter-HostGamePage"></a>
+
 > The gameobject that holds all the child elements that make up the host game page.
 
 | Exposed Value | Type | Default Value |
@@ -102,7 +106,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### JoinGamePage<a name="parameter-JoinGamePage"></a>
+### JoinGamePage<a name="parameter-JoinGamePage"></a>
+
 > The gameobject that holds all the child elements that make up the join game page.
 
 | Exposed Value | Type | Default Value |
@@ -112,7 +117,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LoadingBar<a name="parameter-LoadingBar"></a>
+### LoadingBar<a name="parameter-LoadingBar"></a>
+
 > The loading bar to display when loading a page.
 
 | Exposed Value | Type | Default Value |
@@ -122,7 +128,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LoadingDescriptionText<a name="parameter-LoadingDescriptionText"></a>
+### LoadingDescriptionText<a name="parameter-LoadingDescriptionText"></a>
+
 > The loading page description text to display.
 
 | Exposed Value | Type | Default Value |
@@ -132,7 +139,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LoadingPage<a name="parameter-LoadingPage"></a>
+### LoadingPage<a name="parameter-LoadingPage"></a>
+
 > The page to display when loading a scene.
 
 | Exposed Value | Type | Default Value |
@@ -142,7 +150,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LoadingPreviewImage<a name="parameter-LoadingPreviewImage"></a>
+### LoadingPreviewImage<a name="parameter-LoadingPreviewImage"></a>
+
 > The loading page preview image to display.
 
 | Exposed Value | Type | Default Value |
@@ -152,7 +161,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LoadingPreviewImageTransitionSpeed<a name="parameter-LoadingPreviewImageTransitionSpeed"></a>
+### LoadingPreviewImageTransitionSpeed<a name="parameter-LoadingPreviewImageTransitionSpeed"></a>
+
 > How fast to fade in and out the images on the loading page.
 
 | Exposed Value | Type | Default Value |
@@ -162,7 +172,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LoadingTitleText<a name="parameter-LoadingTitleText"></a>
+### LoadingTitleText<a name="parameter-LoadingTitleText"></a>
+
 > The loading page title text to display.
 
 | Exposed Value | Type | Default Value |
@@ -172,7 +183,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LobbyPage<a name="parameter-LobbyPage"></a>
+### LobbyPage<a name="parameter-LobbyPage"></a>
+
 > The page to display when you are connected to a lobby of a room (NOT A PHOTON LOBBY).
 
 | Exposed Value | Type | Default Value |
@@ -182,7 +194,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### MainPage<a name="parameter-MainPage"></a>
+### MainPage<a name="parameter-MainPage"></a>
+
 > The gameobject that holds all the child elements that make up the main page.
 
 | Exposed Value | Type | Default Value |
@@ -192,7 +205,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### NameErrorPage<a name="parameter-NameErrorPage"></a>
+### NameErrorPage<a name="parameter-NameErrorPage"></a>
+
 > The gameobject to enable when the player attempts to input an invalid name.
 
 | Exposed Value | Type | Default Value |
@@ -202,7 +216,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### NameInputField<a name="parameter-NameInputField"></a>
+### NameInputField<a name="parameter-NameInputField"></a>
+
 > The input field element that will be used to set the player name.
 
 | Exposed Value | Type | Default Value |
@@ -212,7 +227,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### NetworkErrorPage<a name="parameter-NetworkErrorPage"></a>
+### NetworkErrorPage<a name="parameter-NetworkErrorPage"></a>
+
 > The gameobject to enable when you wish to display a network error.
 
 | Exposed Value | Type | Default Value |
@@ -222,7 +238,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### NetworkErrorText<a name="parameter-NetworkErrorText"></a>
+### NetworkErrorText<a name="parameter-NetworkErrorText"></a>
+
 > The text element that will be used to display any network errors/events.
 
 | Exposed Value | Type | Default Value |
@@ -232,7 +249,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### PanelPage<a name="parameter-PanelPage"></a>
+### PanelPage<a name="parameter-PanelPage"></a>
+
 > The gameobject that holds everything, just in case you need to disable everything.
 
 | Exposed Value | Type | Default Value |
@@ -242,7 +260,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### PlayerCardAnimation<a name="parameter-PlayerCardAnimation"></a>
+### PlayerCardAnimation<a name="parameter-PlayerCardAnimation"></a>
+
 > The animation component to call to player slide in/out animations.
 
 | Exposed Value | Type | Default Value |
@@ -252,7 +271,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### PlayerCardPage<a name="parameter-PlayerCardPage"></a>
+### PlayerCardPage<a name="parameter-PlayerCardPage"></a>
+
 > The gameobject to display a player card.
 
 | Exposed Value | Type | Default Value |
@@ -262,7 +282,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### PlayerCardText<a name="parameter-PlayerCardText"></a>
+### PlayerCardText<a name="parameter-PlayerCardText"></a>
+
 > The text to set to display the recently joined player.
 
 | Exposed Value | Type | Default Value |
@@ -272,7 +293,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### PlayerNamePage<a name="parameter-PlayerNamePage"></a>
+### PlayerNamePage<a name="parameter-PlayerNamePage"></a>
+
 > The gameobject that holds all the child elements to set a players name.
 
 | Exposed Value | Type | Default Value |
@@ -282,7 +304,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### PlayerPrefabSelectPage<a name="parameter-PlayerPrefabSelectPage"></a>
+### PlayerPrefabSelectPage<a name="parameter-PlayerPrefabSelectPage"></a>
+
 > The gameobject that holds all the child elements to allow a player to select their character(prefab).
 
 | Exposed Value | Type | Default Value |
@@ -292,7 +315,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### RoomNameInput<a name="parameter-RoomNameInput"></a>
+### RoomNameInput<a name="parameter-RoomNameInput"></a>
+
 > The input field element that will be used to capture the room name to start.
 
 | Exposed Value | Type | Default Value |
@@ -302,7 +326,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### connectionStatus<a name="parameter-connectionStatus"></a>
+### connectionStatus<a name="parameter-connectionStatus"></a>
+
 > String elements that will be populated by the network manager connection status.
 
 | Exposed Value | Type | Default Value |
@@ -312,7 +337,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### createRoomButton<a name="parameter-createRoomButton"></a>
+### createRoomButton<a name="parameter-createRoomButton"></a>
+
 > The gameobject that holds the \"Create Room\" button.
 
 | Exposed Value | Type | Default Value |
@@ -322,7 +348,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### effectChildren<a name="parameter-effectChildren"></a>
+### effectChildren<a name="parameter-effectChildren"></a>
+
 > When fading do you want to effect the parent object and all of its children?
 
 | Exposed Value | Type | Default Value |
@@ -332,7 +359,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### fadeInAudio<a name="parameter-fadeInAudio"></a>
+### fadeInAudio<a name="parameter-fadeInAudio"></a>
+
 > When first loading the UI, fade in the audio.
 
 | Exposed Value | Type | Default Value |
@@ -342,7 +370,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### fadeInUI<a name="parameter-fadeInUI"></a>
+### fadeInUI<a name="parameter-fadeInUI"></a>
+
 > Fade in your UI when first loading it.
 
 | Exposed Value | Type | Default Value |
@@ -352,7 +381,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### fadeObjects<a name="parameter-fadeObjects"></a>
+### fadeObjects<a name="parameter-fadeObjects"></a>
+
 > When fading effect this object. If effect all children is selected it will effect this object and all of its children.
 
 | Exposed Value | Type | Default Value |
@@ -362,7 +392,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### fadeOutSpeed<a name="parameter-fadeOutSpeed"></a>
+### fadeOutSpeed<a name="parameter-fadeOutSpeed"></a>
+
 > If fading out your music how to fast to fade out. Higher values will fade out faster.
 
 | Exposed Value | Type | Default Value |
@@ -372,7 +403,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### finalClick<a name="parameter-finalClick"></a>
+### finalClick<a name="parameter-finalClick"></a>
+
 > The sound that will be played when you call the \"PlayerFinalClick\" function.
 
 | Exposed Value | Type | Default Value |
@@ -382,7 +414,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### finalClickVolume<a name="parameter-finalClickVolume"></a>
+### finalClickVolume<a name="parameter-finalClickVolume"></a>
+
 > How loud to play the \"finalClick\" sound.
 
 | Exposed Value | Type | Default Value |
@@ -392,7 +425,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### loadImageDisplayTime<a name="parameter-loadImageDisplayTime"></a>
+### loadImageDisplayTime<a name="parameter-loadImageDisplayTime"></a>
+
 > How long to display the loading images on the loading page before begining the fade/out in process.
 
 | Exposed Value | Type | Default Value |
@@ -402,7 +436,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### lobbyIndex<a name="parameter-lobbyIndex"></a>
+### lobbyIndex<a name="parameter-lobbyIndex"></a>
+
 > The index of the scene that will act as your room's lobby. You can find this index in the Build Settings when you specify what scenes to build in your project.
 
 | Exposed Value | Type | Default Value |
@@ -412,7 +447,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### lobbyOnlyRoomCreate<a name="parameter-lobbyOnlyRoomCreate"></a>
+### lobbyOnlyRoomCreate<a name="parameter-lobbyOnlyRoomCreate"></a>
+
 > You must be in the lobby for the \"Create Room\" button to be displayed.
 
 | Exposed Value | Type | Default Value |
@@ -422,7 +458,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### mouseClick<a name="parameter-mouseClick"></a>
+### mouseClick<a name="parameter-mouseClick"></a>
+
 > The sound that will be played when you call the \"PlayerMouseClick\" function.
 
 | Exposed Value | Type | Default Value |
@@ -432,7 +469,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### mouseClickVolume<a name="parameter-mouseClickVolume"></a>
+### mouseClickVolume<a name="parameter-mouseClickVolume"></a>
+
 > How loud to play the \"mouseClick\" sound.
 
 | Exposed Value | Type | Default Value |
@@ -442,7 +480,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### mouseEnter<a name="parameter-mouseEnter"></a>
+### mouseEnter<a name="parameter-mouseEnter"></a>
+
 > The sound that will be played when you call the \"PlayerMouseEnter\" function.
 
 | Exposed Value | Type | Default Value |
@@ -452,7 +491,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### mouseEnterVolume<a name="parameter-mouseEnterVolume"></a>
+### mouseEnterVolume<a name="parameter-mouseEnterVolume"></a>
+
 > How loud to play the \"mouseEnter\" sound.
 
 | Exposed Value | Type | Default Value |
@@ -462,7 +502,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### mouseExit<a name="parameter-mouseExit"></a>
+### mouseExit<a name="parameter-mouseExit"></a>
+
 > The sound that will be played when you call the \"PlayerMouseExit\" function.
 
 | Exposed Value | Type | Default Value |
@@ -472,7 +513,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### mouseExitVolume<a name="parameter-mouseExitVolume"></a>
+### mouseExitVolume<a name="parameter-mouseExitVolume"></a>
+
 > How loud to play the \"mouseExit\" sound.
 
 | Exposed Value | Type | Default Value |
@@ -482,7 +524,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### musicSource<a name="parameter-musicSource"></a>
+### musicSource<a name="parameter-musicSource"></a>
+
 > The audio source that will play your menu music.
 
 | Exposed Value | Type | Default Value |
@@ -492,7 +535,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### playerCardDisplayTime<a name="parameter-playerCardDisplayTime"></a>
+### playerCardDisplayTime<a name="parameter-playerCardDisplayTime"></a>
+
 > How long to show the player card before sliding out.
 
 | Exposed Value | Type | Default Value |
@@ -502,7 +546,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### players<a name="parameter-players"></a>
+### players<a name="parameter-players"></a>
+
 > All of the possible players that can be selected. Used in combination with " <br>the \"SelectPlayer\" function in this component. Call this function BEFORE attempting " <br>to spawn your player as the playerPrefab on the NetworkManager is set from this " <br>function.
 
 | Exposed Value | Type | Default Value |
@@ -512,7 +557,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### roomButton<a name="parameter-roomButton"></a>
+### roomButton<a name="parameter-roomButton"></a>
+
 > A prefab element that will be spawned in when a room is found from the server.
 
 | Exposed Value | Type | Default Value |
@@ -522,7 +568,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### soundSource<a name="parameter-soundSource"></a>
+### soundSource<a name="parameter-soundSource"></a>
+
 > The audio source that will play your menu sounds.
 
 | Exposed Value | Type | Default Value |
@@ -532,7 +579,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### startVolume<a name="parameter-startVolume"></a>
+### startVolume<a name="parameter-startVolume"></a>
+
 > How loud to set your audio to.
 
 | Exposed Value | Type | Default Value |
@@ -542,7 +590,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### successNameInputTravelTo<a name="parameter-successNameInputTravelTo"></a>
+### successNameInputTravelTo<a name="parameter-successNameInputTravelTo"></a>
+
 > The gameobject to set active after successfully entering your player name. " <br>If not supplied will travel to PlayerPrefabPage
 
 | Exposed Value | Type | Default Value |
@@ -552,7 +601,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### titleImage<a name="parameter-titleImage"></a>
+### titleImage<a name="parameter-titleImage"></a>
+
 > The gameobject that is the title image.
 
 | Exposed Value | Type | Default Value |
@@ -562,7 +612,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### uiFadeSpeed<a name="parameter-uiFadeSpeed"></a>
+### uiFadeSpeed<a name="parameter-uiFadeSpeed"></a>
+
 > How fast to fade in your UI. Higher values will fade in faster.
 
 | Exposed Value | Type | Default Value |

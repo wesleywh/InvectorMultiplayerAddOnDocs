@@ -13,7 +13,8 @@ Select the parameter name from below to jump directly to it on this page.
 [components](#parameter-components)<br>
 
 ------------------
- ### components<a name="parameter-components"></a>
+### components<a name="parameter-components"></a>
+
 > The components to disable if this is not owned by you.
 
 | Exposed Value | Type | Default Value |
@@ -30,7 +31,8 @@ Select the function name from below to jump directly to it on this page.
 [Start](#Start)<br>
 
 ------------------
- ### void SetComponentStatus()<a name="SetComponentStatus"></a>
+### void SetComponentStatus()<a name="SetComponentStatus"></a>
+
 >   Enables/Disables AI Components based on if this is the owner or not. 
 
 | Expose Value | Overrideable | Returns |
@@ -42,7 +44,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Start()<a name="Start"></a>
+### protected virtual void Start()<a name="Start"></a>
+
 >   Waits to be connected a photon room before doing anything 
 
 | Expose Value | Overrideable | Returns |

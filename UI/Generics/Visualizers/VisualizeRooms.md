@@ -19,7 +19,8 @@ Select the parameter name from below to jump directly to it on this page.
 [roomButton](#parameter-roomButton)<br>
 
 ------------------
- ### autoUpate<a name="parameter-autoUpate"></a>
+### autoUpate<a name="parameter-autoUpate"></a>
+
 > Watch for any room changes and auto update this list.
 
 | Exposed Value | Type | Default Value |
@@ -29,7 +30,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### canDisplaySessionRooms<a name="parameter-canDisplaySessionRooms"></a>
+### canDisplaySessionRooms<a name="parameter-canDisplaySessionRooms"></a>
+
 > If this is true it will display each sub photon room as part of the session. Basically each Unity" <br>scene that a connected player is in.
 
 | Exposed Value | Type | Default Value |
@@ -39,7 +41,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### debugging<a name="parameter-debugging"></a>
+### debugging<a name="parameter-debugging"></a>
+
 > Enable this if you want to have verbose logging to the console. Meant for debugging purposes.
 
 | Exposed Value | Type | Default Value |
@@ -49,7 +52,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### filterRooms<a name="parameter-filterRooms"></a>
+### filterRooms<a name="parameter-filterRooms"></a>
+
 > If this has any value in it that means if the photom room doesn't have this value int it will not be" <br>displayed.
 
 | Exposed Value | Type | Default Value |
@@ -59,7 +63,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### onlyDisplaySessionRooms<a name="parameter-onlyDisplaySessionRooms"></a>
+### onlyDisplaySessionRooms<a name="parameter-onlyDisplaySessionRooms"></a>
+
 > If this is true it will only display the master session room. As in any photom room with an '_' in" <br>the name will not be displayed.
 
 | Exposed Value | Type | Default Value |
@@ -69,7 +74,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### parentObj<a name="parameter-parentObj"></a>
+### parentObj<a name="parameter-parentObj"></a>
+
 > The gameobject that will act as the parent. Will replace all child objects according to results.
 
 | Exposed Value | Type | Default Value |
@@ -79,7 +85,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### roomButton<a name="parameter-roomButton"></a>
+### roomButton<a name="parameter-roomButton"></a>
+
 > Each room found will spawn this as a child of the parentObj.
 
 | Exposed Value | Type | Default Value |
@@ -102,7 +109,8 @@ Select the function name from below to jump directly to it on this page.
 [WaitForListChange](#WaitForListChange)<br>
 
 ------------------
- ### protected virtual void GenerateRoomButton(string roomName, RoomInfo roomInfo)<a name="GenerateRoomButton"></a>
+### protected virtual void GenerateRoomButton(string roomName, RoomInfo roomInfo)<a name="GenerateRoomButton"></a>
+
 >   Sets the room button values based on the room info. Also makes sure its set properly as a child object and its scale is correct. 
 
 | Expose Value | Overrideable | Returns |
@@ -117,7 +125,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void GetRoomListFromUI()<a name="GetRoomListFromUI"></a>
+### public virtual void GetRoomListFromUI()<a name="GetRoomListFromUI"></a>
+
 >   Dynamically gets the room list that is saved in the `UICoreLogic` component and calls `RefreshList` with this new list. 
 
 | Expose Value | Overrideable | Returns |
@@ -129,7 +138,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void ManullayUpdateList(Dictionary<string, RoomInfo> roomList)<a name="ManullayUpdateList"></a>
+### public virtual void ManullayUpdateList(Dictionary<string, RoomInfo> roomList)<a name="ManullayUpdateList"></a>
+
 >   Calls the to set the list of rooms to be displayed manually. 
 
 | Expose Value | Overrideable | Returns |
@@ -143,7 +153,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void RefreshList()<a name="RefreshList"></a>
+### protected virtual void RefreshList()<a name="RefreshList"></a>
+
 >   Destroys all child objects first then loops through all found rooms and spawns a new child object for each found room that matches the set criteria. 
 
 | Expose Value | Overrideable | Returns |
@@ -155,7 +166,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SetFilter(string filter)<a name="SetFilter"></a>
+### public virtual void SetFilter(string filter)<a name="SetFilter"></a>
+
 >   Sets the `filterRooms` parameter value to be whatever you pass in. Then calls the `WaitForListChange` function. 
 
 | Expose Value | Overrideable | Returns |
@@ -169,7 +181,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Update()<a name="Update"></a>
+### protected virtual void Update()<a name="Update"></a>
+
 >   If the previous count of the number of rooms is different it will call the `GetRoomListFromUI` function. 
 
 | Expose Value | Overrideable | Returns |
@@ -181,7 +194,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual IEnumerator WaitForChange()<a name="WaitForChange"></a>
+### protected virtual IEnumerator WaitForChange()<a name="WaitForChange"></a>
+
 >   Waits until the `UICoreLogic`'s room list is greater than zero. As soon as it is it calls the `GetRoomListFromUI` function. 
 
 | Expose Value | Overrideable | Returns |
@@ -193,7 +207,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void WaitForListChange()<a name="WaitForListChange"></a>
+### public virtual void WaitForListChange()<a name="WaitForListChange"></a>
+
 >   Calls the `WaitForChange` IEnumerator 
 
 | Expose Value | Overrideable | Returns |

@@ -14,7 +14,8 @@ Select the parameter name from below to jump directly to it on this page.
 [targets](#parameter-targets)<br>
 
 ------------------
- ### isOwner<a name="parameter-isOwner"></a>
+### isOwner<a name="parameter-isOwner"></a>
+
 > The `targets` will only enable if you're the MasterClient or not.
 
 | Exposed Value | Type | Default Value |
@@ -24,7 +25,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### targets<a name="parameter-targets"></a>
+### targets<a name="parameter-targets"></a>
+
 > The list of gameobjects to enable or not if you're the MasterClient.
 
 | Exposed Value | Type | Default Value |
@@ -41,7 +43,8 @@ Select the function name from below to jump directly to it on this page.
 [SetIsActive](#SetIsActive)<br>
 
 ------------------
- ### protected virtual void FixedUpdate()<a name="FixedUpdate"></a>
+### protected virtual void FixedUpdate()<a name="FixedUpdate"></a>
+
 >   Enable or disables the targets based on if your the MasterClient, in a photon room, and have a `NetworkManager`. This is done by calling the `SetIsActive` function. 
 
 | Expose Value | Overrideable | Returns |
@@ -53,7 +56,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void SetIsActive(bool isActive)<a name="SetIsActive"></a>
+### protected virtual void SetIsActive(bool isActive)<a name="SetIsActive"></a>
+
 >   Sets all the `targets` to be active or not based on the input value. 
 
 | Expose Value | Overrideable | Returns |

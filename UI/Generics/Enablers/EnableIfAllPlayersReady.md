@@ -14,7 +14,8 @@ Select the parameter name from below to jump directly to it on this page.
 [targets](#parameter-targets)<br>
 
 ------------------
- ### mustBeOnwer<a name="parameter-mustBeOnwer"></a>
+### mustBeOnwer<a name="parameter-mustBeOnwer"></a>
+
 > Will only be enabled if you're also the MasterClient of the photon room.
 
 | Exposed Value | Type | Default Value |
@@ -24,7 +25,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### targets<a name="parameter-targets"></a>
+### targets<a name="parameter-targets"></a>
+
 > The list of GameObjects to enable or disable.
 
 | Exposed Value | Type | Default Value |
@@ -41,7 +43,8 @@ Select the function name from below to jump directly to it on this page.
 [FixedUpdate](#FixedUpdate)<br>
 
 ------------------
- ### protected virtual void EnableTargets(bool isEnabled)<a name="EnableTargets"></a>
+### protected virtual void EnableTargets(bool isEnabled)<a name="EnableTargets"></a>
+
 >   Enable or disable all the `targets` based on the input value. 
 
 | Expose Value | Overrideable | Returns |
@@ -55,7 +58,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void FixedUpdate()<a name="FixedUpdate"></a>
+### protected virtual void FixedUpdate()<a name="FixedUpdate"></a>
+
 >   Will constantely set all the targets to be active based on the return value from the `UICoreLogic`'s `AllPlayersReady` function. Calls `EnableTargets` to enable or disable all the targets 
 
 | Expose Value | Overrideable | Returns |

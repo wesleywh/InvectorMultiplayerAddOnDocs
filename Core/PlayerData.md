@@ -20,7 +20,8 @@ Select the parameter name from below to jump directly to it on this page.
 [stamina](#parameter-stamina)<br>
 
 ------------------
- ### character<a name="parameter-character"></a>
+### character<a name="parameter-character"></a>
+
 > The actual gameobject name of this character.
 
 | Exposed Value | Type | Default Value |
@@ -30,7 +31,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### characterName<a name="parameter-characterName"></a>
+### characterName<a name="parameter-characterName"></a>
+
 > The nickname of your the photon room.
 
 | Exposed Value | Type | Default Value |
@@ -40,7 +42,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### ground<a name="parameter-ground"></a>
+### ground<a name="parameter-ground"></a>
+
 > All of the group settings on this character.
 
 | Exposed Value | Type | Default Value |
@@ -50,7 +53,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### health<a name="parameter-health"></a>
+### health<a name="parameter-health"></a>
+
 > All of the health data related to this character.
 
 | Exposed Value | Type | Default Value |
@@ -60,7 +64,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### inventory<a name="parameter-inventory"></a>
+### inventory<a name="parameter-inventory"></a>
+
 > The inventory data from this characters inventory.
 
 | Exposed Value | Type | Default Value |
@@ -70,7 +75,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### jump<a name="parameter-jump"></a>
+### jump<a name="parameter-jump"></a>
+
 > All of the jump settings on this character.
 
 | Exposed Value | Type | Default Value |
@@ -80,7 +86,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### roll<a name="parameter-roll"></a>
+### roll<a name="parameter-roll"></a>
+
 > All of the roll settings on this character.
 
 | Exposed Value | Type | Default Value |
@@ -90,7 +97,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### stamina<a name="parameter-stamina"></a>
+### stamina<a name="parameter-stamina"></a>
+
 > All of the stamina data related to this character.
 
 | Exposed Value | Type | Default Value |
@@ -106,7 +114,8 @@ Select the function name from below to jump directly to it on this page.
 [PlayerData](#PlayerData)<br>
 
 ------------------
- ### public PlayerData(vThirdPersonController controller)<a name="PlayerData"></a>
+### public PlayerData(vThirdPersonController controller)<a name="PlayerData"></a>
+
 >   Takes a simple character controller inputs and extracts all of the following information from that character: health info, stamina info, roll settings, jump settings, group settings, and inventory data. It will then save that information into easily serializable classes that can be stored into a binary file. It's all self contained within this class. 
 
 | Expose Value | Overrideable | Returns |

@@ -16,7 +16,8 @@ Select the function name from below to jump directly to it on this page.
 [SetMainLookTarget](#SetMainLookTarget)<br>
 
 ------------------
- ### protected override void FixedUpdate()<a name="FixedUpdate"></a>
+### protected override void FixedUpdate()<a name="FixedUpdate"></a>
+
 >   Override or original FixedUpdate so I can control when to call fixed update with a variable that I have access to. 
 
 | Expose Value | Overrideable | Returns |
@@ -28,7 +29,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected override Vector3 GetLookPoint()<a name="GetLookPoint"></a>
+### protected override Vector3 GetLookPoint()<a name="GetLookPoint"></a>
+
 >   Set the _lookAtPoint if you're the owner 
 
 | Expose Value | Overrideable | Returns |
@@ -40,7 +42,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected override void LateUpdate()<a name="LateUpdate"></a>
+### protected override void LateUpdate()<a name="LateUpdate"></a>
+
 >   Only perform the late update if you're the owner. Otherwise only rotate to specified locations and weights. 
 
 | Expose Value | Overrideable | Returns |
@@ -52,7 +55,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void RemoveMainLookTarget()<a name="RemoveMainLookTarget"></a>
+### public override void RemoveMainLookTarget()<a name="RemoveMainLookTarget"></a>
+
 >   When the main look target is removed, notify all the network versions to remove their target as well. 
 
 | Expose Value | Overrideable | Returns |
@@ -64,7 +68,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void SetMainLookTarget(Transform target)<a name="SetMainLookTarget"></a>
+### public override void SetMainLookTarget(Transform target)<a name="SetMainLookTarget"></a>
+
 >   When the main look target changes notify all the network versions to switch to the new target. 
 
 | Expose Value | Overrideable | Returns |

@@ -12,7 +12,8 @@ Select the function name from below to jump directly to it on this page.
 [Update](#Update)<br>
 
 ------------------
- ### private void Update()<a name="Update"></a>
+### private void Update()<a name="Update"></a>
+
 >   Just always look at the main camera. 
 
 | Expose Value | Overrideable | Returns |

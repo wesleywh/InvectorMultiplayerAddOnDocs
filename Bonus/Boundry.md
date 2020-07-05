@@ -13,7 +13,8 @@ Select the parameter name from below to jump directly to it on this page.
 [resetPoint](#parameter-resetPoint)<br>
 
 ------------------
- ### resetPoint<a name="parameter-resetPoint"></a>
+### resetPoint<a name="parameter-resetPoint"></a>
+
 > If you left the boundary box it will reset your characters position to this point.
 
 | Exposed Value | Type | Default Value |
@@ -29,7 +30,8 @@ Select the function name from below to jump directly to it on this page.
 [OnTriggerExit](#OnTriggerExit)<br>
 
 ------------------
- ### private void OnTriggerExit(Collider other)<a name="OnTriggerExit"></a>
+### private void OnTriggerExit(Collider other)<a name="OnTriggerExit"></a>
+
 >   If you leave the boundary box it will reset that vThirdPersonController's position to the 'resetPoint' position. 
 
 | Expose Value | Overrideable | Returns |

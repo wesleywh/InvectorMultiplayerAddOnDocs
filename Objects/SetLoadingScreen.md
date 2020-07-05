@@ -15,7 +15,8 @@ Select the parameter name from below to jump directly to it on this page.
 [LoadingTitle](#parameter-LoadingTitle)<br>
 
 ------------------
- ### LoadingDescriptions<a name="parameter-LoadingDescriptions"></a>
+### LoadingDescriptions<a name="parameter-LoadingDescriptions"></a>
+
 > The loading description to display while on the loading screen.
 
 | Exposed Value | Type | Default Value |
@@ -25,7 +26,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LoadingImages<a name="parameter-LoadingImages"></a>
+### LoadingImages<a name="parameter-LoadingImages"></a>
+
 > The images to cycle through while on the loading screen. Used in conjunction with the `UICoreLogic` component.
 
 | Exposed Value | Type | Default Value |
@@ -35,7 +37,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### LoadingTitle<a name="parameter-LoadingTitle"></a>
+### LoadingTitle<a name="parameter-LoadingTitle"></a>
+
 > The load title to display while on the loading screen.
 
 | Exposed Value | Type | Default Value |
@@ -52,7 +55,8 @@ Select the function name from below to jump directly to it on this page.
 [SetLoadingScreenItems](#SetLoadingScreenItems)<br>
 
 ------------------
- ### public virtual void EnableLoadingScreen()<a name="EnableLoadingScreen"></a>
+### public virtual void EnableLoadingScreen()<a name="EnableLoadingScreen"></a>
+
 >   Calls `EnableLoadingPage` on `UICoreLogic` to enable the loading screen. Also calls `SetLoadingScreenItems` function to set the `UICoreLogic` values. 
 
 | Expose Value | Overrideable | Returns |
@@ -64,7 +68,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SetLoadingScreenItems()<a name="SetLoadingScreenItems"></a>
+### public virtual void SetLoadingScreenItems()<a name="SetLoadingScreenItems"></a>
+
 >   Sets the loading image, loading desc and load title on the UICoreLogic component. 
 
 | Expose Value | Overrideable | Returns |

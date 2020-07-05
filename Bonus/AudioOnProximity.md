@@ -14,7 +14,8 @@ Select the parameter name from below to jump directly to it on this page.
 [distances](#parameter-distances)<br>
 
 ------------------
- ### distanceClip<a name="parameter-distanceClip"></a>
+### distanceClip<a name="parameter-distanceClip"></a>
+
 > The audio clip to fade in/out based on distance to the target.
 
 | Exposed Value | Type | Default Value |
@@ -24,7 +25,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### distances<a name="parameter-distances"></a>
+### distances<a name="parameter-distances"></a>
+
 > At what distance should the sound source volume be set to?
 
 | Exposed Value | Type | Default Value |
@@ -40,7 +42,8 @@ Select the function name from below to jump directly to it on this page.
 [Update](#Update)<br>
 
 ------------------
- ### private void Update()<a name="Update"></a>
+### private void Update()<a name="Update"></a>
+
 >   Will keep track of the target to the source. If it falls within the particular distances Array it will fade in the volume with the selected audio clip. 
 
 | Expose Value | Overrideable | Returns |

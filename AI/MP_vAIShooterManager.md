@@ -16,7 +16,8 @@ Select the function name from below to jump directly to it on this page.
 [Shoot](#Shoot)<br>
 
 ------------------
- ### public override void LoadIKAdjust(string category)<a name="LoadIKAdjust"></a>
+### public override void LoadIKAdjust(string category)<a name="LoadIKAdjust"></a>
+
 >   Load the IK adjust catagory into vAIShooterManager but also tells the other networked versions to do the same if you're the owner. 
 
 | Expose Value | Overrideable | Returns |
@@ -30,7 +31,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void ReloadWeapon()<a name="ReloadWeapon"></a>
+### public override void ReloadWeapon()<a name="ReloadWeapon"></a>
+
 >   Reloads the weapon, if owner will tell the other networked versions to play the reload animations. 
 
 | Expose Value | Overrideable | Returns |
@@ -42,7 +44,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public new void SetLeftWeapon(GameObject weapon)<a name="SetLeftWeapon"></a>
+### public new void SetLeftWeapon(GameObject weapon)<a name="SetLeftWeapon"></a>
+
 >   Sets the left weapon in the vAIShooterManager component but also tells the other networked versions to do the same and with what weapon. 
 
 | Expose Value | Overrideable | Returns |
@@ -56,7 +59,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public new void SetRightWeapon(GameObject weapon)<a name="SetRightWeapon"></a>
+### public new void SetRightWeapon(GameObject weapon)<a name="SetRightWeapon"></a>
+
 >   Sets the right weapon in the vAIShooterManager component but also tells the other networked versions to do the same and with what weapon. 
 
 | Expose Value | Overrideable | Returns |
@@ -70,7 +74,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void Shoot(Vector3 aimPosition, bool useSecundaryWeapon = false)<a name="Shoot"></a>
+### public override void Shoot(Vector3 aimPosition, bool useSecundaryWeapon = false)<a name="Shoot"></a>
+
 >   Shoot your equipped weapon at the target point. If owner will set the aim position that is referenced by the MP_ShooterWeapon component. Which triggers firing the networked versions weapon at that point. 
 
 | Expose Value | Overrideable | Returns |

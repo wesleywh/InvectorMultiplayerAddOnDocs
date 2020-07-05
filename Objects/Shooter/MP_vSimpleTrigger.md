@@ -13,7 +13,8 @@ Select the function name from below to jump directly to it on this page.
 [OnTriggerExit](#OnTriggerExit)<br>
 
 ------------------
- ### private void OnTriggerEnter(Collider other)<a name="OnTriggerEnter"></a>
+### private void OnTriggerEnter(Collider other)<a name="OnTriggerEnter"></a>
+
 >   On top of doing the normal actions when entering the trigger it will also trigger these actions on all networked versions of the charcter entering it 
 
 | Expose Value | Overrideable | Returns |
@@ -27,7 +28,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### private void OnTriggerExit(Collider other)<a name="OnTriggerExit"></a>
+### private void OnTriggerExit(Collider other)<a name="OnTriggerExit"></a>
+
 >   On top of doing the normal actions when exiting the trigger it will also trigger these actions on all networked versions of the charcter exiting it 
 
 | Expose Value | Overrideable | Returns |

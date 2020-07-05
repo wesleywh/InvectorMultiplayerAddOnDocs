@@ -20,7 +20,8 @@ Select the function name from below to jump directly to it on this page.
 [UpdateAimBehaviour](#UpdateAimBehaviour)<br>
 
 ------------------
- ### public override void Attack(bool strongAttack = false, int attackID = -1, bool forceCanAttack = false)<a name="Attack"></a>
+### public override void Attack(bool strongAttack = false, int attackID = -1, bool forceCanAttack = false)<a name="Attack"></a>
+
 >   Attacks with hands/melee weapon. If owner will tell the networked version to do the exact same attack via RPC. 
 
 | Expose Value | Overrideable | Returns |
@@ -36,7 +37,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void ResetAttackTriggers()<a name="ResetAttackTriggers"></a>
+### public override void ResetAttackTriggers()<a name="ResetAttackTriggers"></a>
+
 >   Resets the attack trigger in the animator, if owner tell the others to do the same via RPC. 
 
 | Expose Value | Overrideable | Returns |
@@ -48,7 +50,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void RollTo(Vector3 direction)<a name="RollTo"></a>
+### public override void RollTo(Vector3 direction)<a name="RollTo"></a>
+
 >   Rolls to a particular direction. If owner will tell the networked versions to roll to that same direction. Call is done via RPC. 
 
 | Expose Value | Overrideable | Returns |
@@ -62,7 +65,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected override void RotateAimArm(bool isUsingLeftHand = false)<a name="RotateAimArm"></a>
+### protected override void RotateAimArm(bool isUsingLeftHand = false)<a name="RotateAimArm"></a>
+
 >   Rotates the aim arm normally if owner, if networked version will only rotate to the values it receives in the OnPhotonSerializeView function. 
 
 | Expose Value | Overrideable | Returns |
@@ -76,7 +80,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected override void RotateAimHand(bool isUsingLeftHand = false)<a name="RotateAimHand"></a>
+### protected override void RotateAimHand(bool isUsingLeftHand = false)<a name="RotateAimHand"></a>
+
 >   Rotates the aim hand normally if owner, if networked version will only rotate to the values it receives in the OnPhotonSerializeView function. 
 
 | Expose Value | Overrideable | Returns |
@@ -90,7 +95,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public override void SetCurrentTarget(Transform target, bool overrideCanseTarget)<a name="SetCurrentTarget"></a>
+### public override void SetCurrentTarget(Transform target, bool overrideCanseTarget)<a name="SetCurrentTarget"></a>
+
 >   Set the current target of the AI. If owner will tell the other networked versions to what target they should update themselves to. 
 
 | Expose Value | Overrideable | Returns |
@@ -105,7 +111,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected override void TriggerDamageRection(vDamage damage)<a name="TriggerDamageRection"></a>
+### protected override void TriggerDamageRection(vDamage damage)<a name="TriggerDamageRection"></a>
+
 >   If owner will trigger the damage reaction animation and tell others to play that animation. If networked player this will do nothing. Call to update others is done via RPC. 
 
 | Expose Value | Overrideable | Returns |
@@ -119,7 +126,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected override void UpdateAI()<a name="UpdateAI"></a>
+### protected override void UpdateAI()<a name="UpdateAI"></a>
+
 >   Heartbeat actions of the AI, this is only performed if the owner. If network player it only reacts to things the owner sends. 
 
 | Expose Value | Overrideable | Returns |
@@ -131,7 +139,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected override void UpdateAimBehaviour()<a name="UpdateAimBehaviour"></a>
+### protected override void UpdateAimBehaviour()<a name="UpdateAimBehaviour"></a>
+
 >   Sets the IK positions, if not the owner will simply rotate IK placements according to received positions in the OnPhotonSerializeView function. 
 
 | Expose Value | Overrideable | Returns |

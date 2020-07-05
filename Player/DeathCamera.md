@@ -17,7 +17,8 @@ Select the parameter name from below to jump directly to it on this page.
 [keyToSwitchPrevious](#parameter-keyToSwitchPrevious)<br>
 
 ------------------
- ### OnDisableSwitching<a name="parameter-OnDisableSwitching"></a>
+### OnDisableSwitching<a name="parameter-OnDisableSwitching"></a>
+
 > UnityEvent. Called when you disallow the owner player to switch camera targets.
 
 | Exposed Value | Type | Default Value |
@@ -27,7 +28,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### OnEnableSwitching<a name="parameter-OnEnableSwitching"></a>
+### OnEnableSwitching<a name="parameter-OnEnableSwitching"></a>
+
 > UnityEvent. Called when you allow the owner player to switch camera targets.
 
 | Exposed Value | Type | Default Value |
@@ -37,7 +39,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### deathVisual<a name="parameter-deathVisual"></a>
+### deathVisual<a name="parameter-deathVisual"></a>
+
 > (Optional)The UI GameObject to enable when you die.
 
 | Exposed Value | Type | Default Value |
@@ -47,7 +50,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### keyToSwitchNext<a name="parameter-keyToSwitchNext"></a>
+### keyToSwitchNext<a name="parameter-keyToSwitchNext"></a>
+
 > The key to press in order to have the camera switch to a new player " <br>target if \"allowSwitching\" is true.
 
 | Exposed Value | Type | Default Value |
@@ -57,7 +61,8 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### keyToSwitchPrevious<a name="parameter-keyToSwitchPrevious"></a>
+### keyToSwitchPrevious<a name="parameter-keyToSwitchPrevious"></a>
+
 > The key to press in order to have the camera switch to a new player " <br>target if \"allowSwitching\" is true.
 
 | Exposed Value | Type | Default Value |
@@ -78,7 +83,8 @@ Select the function name from below to jump directly to it on this page.
 [Update](#Update)<br>
 
 ------------------
- ### protected virtual void Awake()<a name="Awake"></a>
+### protected virtual void Awake()<a name="Awake"></a>
+
 >   Makes sure the death visual is inactive by default. 
 
 | Expose Value | Overrideable | Returns |
@@ -90,7 +96,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void EnableSwitching(bool isEnabled)<a name="EnableSwitching"></a>
+### public virtual void EnableSwitching(bool isEnabled)<a name="EnableSwitching"></a>
+
 >   Allow the owner player to switch the camera target. 
 
 | Expose Value | Overrideable | Returns |
@@ -104,7 +111,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SelectNextTarget()<a name="SelectNextTarget"></a>
+### public virtual void SelectNextTarget()<a name="SelectNextTarget"></a>
+
 >   Sets the potential next target the camera can switch to. Does not switch the camera target. 
 
 | Expose Value | Overrideable | Returns |
@@ -116,7 +124,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual void SelectPreviousTarget()<a name="SelectPreviousTarget"></a>
+### public virtual void SelectPreviousTarget()<a name="SelectPreviousTarget"></a>
+
 >   Sets the potential next target the camera can switch to. Does not switch the camera target. 
 
 | Expose Value | Overrideable | Returns |
@@ -128,7 +137,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### public virtual bool SwitchCameraTarget(Transform target)<a name="SwitchCameraTarget"></a>
+### public virtual bool SwitchCameraTarget(Transform target)<a name="SwitchCameraTarget"></a>
+
 >   Changes the invector camera target to target another player in the room. 
 
 | Expose Value | Overrideable | Returns |
@@ -142,7 +152,8 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
- ### protected virtual void Update()<a name="Update"></a>
+### protected virtual void Update()<a name="Update"></a>
+
 >   If switching is allowed, this will capture the owner input and switch the camera to target another player when the owner presses the `keyToSwitchPrevious` or `keyToSwitchNext` parameter value. 
 
 | Expose Value | Overrideable | Returns |

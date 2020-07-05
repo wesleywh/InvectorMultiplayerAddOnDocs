@@ -298,7 +298,8 @@ class MDParser:
         desc = content["comment_summary"]
         params = content["comment_params"]
         write_lines.append("------------------")
-        write_lines.append(f" ### {delegate}<a name=\"delegate-{name}\"></a>")
+        write_lines.append(f"### {delegate}<a name=\"delegate-{name}\"></a>")
+        write_lines.append("")
         write_lines.append("")
         write_lines.append(f"> {desc}")
         write_lines.append("")
@@ -327,7 +328,8 @@ class MDParser:
         returns = content["comment_returns"] or "Does not return anything"
         returns = returns.replace("\\n","<br>")
         write_lines.append("------------------")
-        write_lines.append(f" ### {function}<a name=\"{function_name}\"></a>")
+        write_lines.append(f"### {function}<a name=\"{function_name}\"></a>")
+        write_lines.append("")
         write_lines.append(f"> {desc}")
         write_lines.append("")
         write_lines.append("| Expose Value | Overrideable | Returns |")
@@ -356,7 +358,8 @@ class MDParser:
         default_type = content["parameter_type"]
         expose = content["parameter_exposed_value"]
         write_lines.append("------------------")
-        write_lines.append(f" ### {name}<a name=\"parameter-{name}\"></a>")
+        write_lines.append(f"### {name}<a name=\"parameter-{name}\"></a>")
+        write_lines.append("")
         write_lines.append(f"> {desc}")
         write_lines.append("")
         write_lines.append("| Exposed Value | Type | Default Value |")
