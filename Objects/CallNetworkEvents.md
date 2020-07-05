@@ -54,8 +54,7 @@ Select the function name from below to jump directly to it on this page.
 [SceneUpdateNoInputInvokeEvent](#SceneUpdateNoInputInvokeEvent)<br>
 
 ------------------
-
- ### public virtual void CallFloatInvoke1(float value)<a name="CallFloatInvoke1"></a>
+### public virtual void CallFloatInvoke1(float value)<a name="CallFloatInvoke1"></a> 
 >   Calls `InvokeSingleEvent` function with a value value and number 1 
 
 | Expose Value | Overrideable | Returns |
