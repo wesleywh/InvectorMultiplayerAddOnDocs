@@ -17,6 +17,7 @@ Select the parameter name from below to jump directly to it on this page.
 [allowTeamDamaging](#parameter-allowTeamDamaging)<br>
 [autoSpawnPlayer](#parameter-autoSpawnPlayer)<br>
 [cachedRoomList](#parameter-cachedRoomList)<br>
+[connect_attempts](#parameter-connect_attempts)<br>
 [database](#parameter-database)<br>
 [debugging](#parameter-debugging)<br>
 [defaultSpawnPoint](#parameter-defaultSpawnPoint)<br>
@@ -28,8 +29,10 @@ Select the parameter name from below to jump directly to it on this page.
 [otherEvents](#parameter-otherEvents)<br>
 [playerEvents](#parameter-playerEvents)<br>
 [playerPrefab](#parameter-playerPrefab)<br>
+[reconnect](#parameter-reconnect)<br>
 [replayScenes](#parameter-replayScenes)<br>
 [roomEvents](#parameter-roomEvents)<br>
+[spawnAtSaved](#parameter-spawnAtSaved)<br>
 [spawnPointsTag](#parameter-spawnPointsTag)<br>
 [syncScenes](#parameter-syncScenes)<br>
 [teamName](#parameter-teamName)<br>
@@ -98,6 +101,17 @@ Select the parameter name from below to jump directly to it on this page.
 | Exposed Value | Type | Default Value |
 |:---|:---|---:|
 |None|RoomInfo>|new Dictionary<string, RoomInfo>()
+
+[Back To Top](#)
+
+------------------
+### connect_attempts<a name="parameter-connect_attempts"></a>
+
+> How many attempts to reconnect to the room if 'reconnect' is true.
+
+| Exposed Value | Type | Default Value |
+|:---|:---|---:|
+|protected |int|3
 
 [Back To Top](#)
 
@@ -223,6 +237,17 @@ Select the parameter name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
+### reconnect<a name="parameter-reconnect"></a>
+
+> Automatically attempt to reconnect to the last room you were in if you get disconnected.
+
+| Exposed Value | Type | Default Value |
+|:---|:---|---:|
+|public |bool|false
+
+[Back To Top](#)
+
+------------------
 ### replayScenes<a name="parameter-replayScenes"></a>
 
 > Save state between scenes. When you re-enter the scene replay all of the actions on the objects with syncScenes enabled. " <br>This allows for persistant dropped items, picked up items, interacted objects, etc. between unity scenes/photon rooms.
@@ -236,11 +261,22 @@ Select the parameter name from below to jump directly to it on this page.
 ------------------
 ### roomEvents<a name="parameter-roomEvents"></a>
 
-> Actions to trigger on events that happen in the room. Contains the following UnityEvents: " <br> _onJoinedRoom, _onLeftRoom, _OnCreatedRoom, _onCreateRoomFailed, _onJoinRoomFailed
+> Actions to trigger on events that happen in the room. Contains the following UnityEvents: " <br> _onJoinedRoom, _onLeftRoom, _OnCreatedRoom, _onCreateRoomFailed, _onJoinRoomFailed, _onReconnect
 
 | Exposed Value | Type | Default Value |
 |:---|:---|---:|
 |public |RoomEvents|None
+
+[Back To Top](#)
+
+------------------
+### spawnAtSaved<a name="parameter-spawnAtSaved"></a>
+
+> On a successfull reconnect, do you want to spawn the character back at the location " <br>you last were at or just at a random spawn in point?
+
+| Exposed Value | Type | Default Value |
+|:---|:---|---:|
+|public |bool|true
 
 [Back To Top](#)
 
@@ -308,6 +344,7 @@ Select the delegate name from below to jump directly to it on this page.
 [OnPlayerJoinedCurrentRoom](#delegate-OnPlayerJoinedCurrentRoom)<br>
 [OnPlayerKicked](#delegate-OnPlayerKicked)<br>
 [OnPlayerLeftCurrentRoom](#delegate-OnPlayerLeftCurrentRoom)<br>
+[OnReconnectingToRoom](#delegate-OnReconnectingToRoom)<br>
 [OnUpdatedRoomList](#delegate-OnUpdatedRoomList)<br>
 
 ------------------
@@ -487,6 +524,16 @@ Select the delegate name from below to jump directly to it on this page.
 | Parameter Name | Description
 |:---|:---|
 |player|player parameter is Photon.Realtime.Player type. This is the player that is leaving.|
+
+[Back To Top](#)
+
+------------------
+### public BasicDelegate OnReconnectingToRoom<a name="delegate-OnReconnectingToRoom"></a>
+
+
+>   This delegate is called whenever you are trying to reconnect to a room after you disconnected from it. 
+
+**No parameters**
 
 [Back To Top](#)
 

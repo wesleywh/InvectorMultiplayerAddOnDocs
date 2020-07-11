@@ -19,7 +19,7 @@ Select the parameter name from below to jump directly to it on this page.
 
 | Exposed Value | Type | Default Value |
 |:---|:---|---:|
-|public |string|"Testing_room"
+|public |string|"MyTestingRoom"
 
 [Back To Top](#)
 

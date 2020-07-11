@@ -60,8 +60,8 @@
       * [MP_vZipline](Player/Zipline/MP_vZipline.md)
 * Testing
    * [AutoConnect](Testing/AutoConnect.md)
+   * [NetworkControl](Testing/NetworkControl.md)
 * UI
-   * [Counter](UI/Counter.md)
    * [FloatingBar](UI/FloatingBar.md)
    * [LookAtCamera](UI/LookAtCamera.md)
    * [PlayerList](UI/PlayerList.md)
@@ -71,12 +71,12 @@
       * [BroadcastReceiver](UI/Chatbox/BroadcastReceiver.md)
       * [ChatMessage](UI/Chatbox/ChatMessage.md)
    * Core
-      * UICoreLogic
-         * [UICoreLogic](UI/Core/UICoreLogic/UICoreLogic.md)
+      * [UICoreLogic](UI/Core/UICoreLogic.md)
    * Generics
-      * [GenericCountDown](UI/Generics/GenericCountDown.md)
-      * [GenericEventCaller](UI/Generics/GenericEventCaller.md)
-      * [KickPlayerButton](UI/Generics/KickPlayerButton.md)
+      * CallEvents
+         * [GenericCountDown](UI/Generics/CallEvents/GenericCountDown.md)
+         * [GenericEventCaller](UI/Generics/CallEvents/GenericEventCaller.md)
+         * [KickPlayerButton](UI/Generics/CallEvents/KickPlayerButton.md)
       * Enablers
          * [EnableIfAllPlayersReady](UI/Generics/Enablers/EnableIfAllPlayersReady.md)
          * [EnableIfChatConnected](UI/Generics/Enablers/EnableIfChatConnected.md)
@@ -97,4 +97,5 @@
          * [VisualizePlayers](UI/Generics/Visualizers/VisualizePlayers.md)
          * [VisualizeRooms](UI/Generics/Visualizers/VisualizeRooms.md)
    * Legacy
+      * [Counter](UI/Legacy/Counter.md)
       * [ExampleUI](UI/Legacy/ExampleUI.md)
