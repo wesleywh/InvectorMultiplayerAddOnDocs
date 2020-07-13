@@ -1907,7 +1907,7 @@ Select the function name from below to jump directly to it on this page.
 ------------------
 ### public virtual void SendStartSession()<a name="SendStartSession"></a>
 
->   Calls the `CB_EVENT_STARTSESSION` photon event. Which makes everyone start the photon session. 
+>   Calls the `CB_EVENT_STARTSESSION` photon event. Which makes everyone start the photon session. Only the master client can call this method. 
 
 | Expose Value | Overrideable | Returns |
 |:---|:---|---:|

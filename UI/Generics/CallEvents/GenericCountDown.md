@@ -195,18 +195,35 @@ Select the parameter name from below to jump directly to it on this page.
 
 Select the function name from below to jump directly to it on this page.
 
+[OnRoomPropertiesUpdate](#OnRoomPropertiesUpdate)<br>
 [PlayAudioClip](#PlayAudioClip)<br>
+[RemoveRoomProperties](#RemoveRoomProperties)<br>
 [SetAudioSource](#SetAudioSource)<br>
 [SetClip](#SetClip)<br>
 [SetStartTime](#SetStartTime)<br>
-[SetSyncTime](#SetSyncTime)<br>
 [SetTexts](#SetTexts)<br>
 [SetTime](#SetTime)<br>
 [Start](#Start)<br>
 [StartCounting](#StartCounting)<br>
 [StopCounting](#StopCounting)<br>
 [SubtractTime](#SubtractTime)<br>
+[TimerEnded](#TimerEnded)<br>
 [Update](#Update)<br>
+
+------------------
+### protected virtual void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)<a name="OnRoomPropertiesUpdate"></a>
+
+>   Callback method. This is called when the properties of the current room have changed. Will start the timer and set the sync values based on what is received. 
+
+| Expose Value | Overrideable | Returns |
+|:---|:---|---:|
+|protected|True|Does not return anything|
+
+| Parameter Name | Description |
+|:---|:---|
+|propertiesThatChanged|***No found decription**|
+
+[Back To Top](#)
 
 ------------------
 ### protected virtual void PlayAudioClip()<a name="PlayAudioClip"></a>
@@ -216,6 +233,19 @@ Select the function name from below to jump directly to it on this page.
 | Expose Value | Overrideable | Returns |
 |:---|:---|---:|
 |protected|True|Does not return anything|
+
+**No parameters**
+
+[Back To Top](#)
+
+------------------
+### public virtual void RemoveRoomProperties()<a name="RemoveRoomProperties"></a>
+
+>   Removes all the custom room properties that this component has added to sync the times. 
+
+| Expose Value | Overrideable | Returns |
+|:---|:---|---:|
+|public|True|Does not return anything|
 
 **No parameters**
 
@@ -263,21 +293,6 @@ Select the function name from below to jump directly to it on this page.
 | Parameter Name | Description |
 |:---|:---|
 |timeToStart|float type, the start counting from time.|
-
-[Back To Top](#)
-
-------------------
-### public virtual void SetSyncTime(double startTime)<a name="SetSyncTime"></a>
-
->   If you want players over the network to countdown together they need to countdown from the time on the photon server. This sets the time to sync to (Photon server time). 
-
-| Expose Value | Overrideable | Returns |
-|:---|:---|---:|
-|public|True|Does not return anything|
-
-| Parameter Name | Description |
-|:---|:---|
-|startTime|double type, the photon server time to syncronize against.|
 
 [Back To Top](#)
 
@@ -362,6 +377,19 @@ Select the function name from below to jump directly to it on this page.
 | Parameter Name | Description |
 |:---|:---|
 |subtractTime|float type, the amount of time to subtract.|
+
+[Back To Top](#)
+
+------------------
+### protected virtual void TimerEnded()<a name="TimerEnded"></a>
+
+>   This is called when the timer reachs zero. It will call the `RemoveSyncTime` function and the `OnZero` UnityEvent. It also resets this timer so it can be used again. 
+
+| Expose Value | Overrideable | Returns |
+|:---|:---|---:|
+|protected|True|Does not return anything|
+
+**No parameters**
 
 [Back To Top](#)
 
