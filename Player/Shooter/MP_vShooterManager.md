@@ -15,12 +15,12 @@ Select the function name from below to jump directly to it on this page.
 [NetworkCancelReloadRoutine](#NetworkCancelReloadRoutine)<br>
 [NetworkRecoil](#NetworkRecoil)<br>
 [NetworkReloadWeapon](#NetworkReloadWeapon)<br>
-[OnPhotonSerializeView](#OnPhotonSerializeView)<br>
 [Recoil](#Recoil)<br>
 [ReloadWeapon](#ReloadWeapon)<br>
 [SetLeftWeapon](#SetLeftWeapon)<br>
 [SetRightWeapon](#SetRightWeapon)<br>
 [Shoot](#Shoot)<br>
+[UpdateAmmoDisplay](#UpdateAmmoDisplay)<br>
 
 ------------------
 ### protected override IEnumerator AddAmmoToWeapon(vShooterWeapon weapon, float delayTime, bool ignoreEffects = false)<a name="AddAmmoToWeapon"></a>
@@ -114,19 +114,6 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
-### public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) //this function called by Photon View component<a name="OnPhotonSerializeView"></a>
-
->   This overrideds the default functionality of the invector logic to only work if you're the owner player and will not work if you're a networked player   This overrideds the default functionality of the invector logic to only work if you're the owner player and will not work if you're a networked player 
-
-| Expose Value | Overrideable | Returns |
-|:---|:---|---:|
-|public|False|Does not return anything|
-
-**No parameters**
-
-[Back To Top](#)
-
-------------------
 ### protected override IEnumerator Recoil(float horizontal, float up)<a name="Recoil"></a>
 
 >   Calls the `NetworkRecoil` function on top of all it's normal functionality. 
@@ -199,6 +186,19 @@ Select the function name from below to jump directly to it on this page.
 |aimPosition|Read the invector docs.|
 |applyHipfirePrecision|Read the invector docs.|
 |useSecundaryWeapon|Read the invector docs.|
+
+[Back To Top](#)
+
+------------------
+### protected override void UpdateAmmoDisplay(int displayId)<a name="UpdateAmmoDisplay"></a>
+
+>   This overrideds the default functionality of the invector logic to only work if you're the owner player and will not work if you're a networked player   This overrideds the default functionality of the invector logic to only work if you're the owner player and will not work if you're a networked player 
+
+| Expose Value | Overrideable | Returns |
+|:---|:---|---:|
+|protected|True|Does not return anything|
+
+**No parameters**
 
 [Back To Top](#)
 

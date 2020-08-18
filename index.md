@@ -32,6 +32,7 @@
    * [SyncObject](Objects/SyncObject.md)
    * Shooter
       * [ArrowView](Objects/Shooter/ArrowView.md)
+      * [MP_BaseShooterWeapon](Objects/Shooter/MP_BaseShooterWeapon.md)
       * [MP_Projectile](Objects/Shooter/MP_Projectile.md)
       * [MP_ShooterWeapon](Objects/Shooter/MP_ShooterWeapon.md)
       * [MP_vSimpleTrigger](Objects/Shooter/MP_vSimpleTrigger.md)
@@ -45,6 +46,7 @@
       * [MP_HeadTrack](Player/Basic/MP_HeadTrack.md)
       * [MP_vGenericAction](Player/Basic/MP_vGenericAction.md)
       * [MP_vSimpleInput](Player/Basic/MP_vSimpleInput.md)
+      * [NetworkCulling](Player/Basic/NetworkCulling.md)
    * FreeClimb
       * [MP_vFreeClimb](Player/FreeClimb/MP_vFreeClimb.md)
    * Melee

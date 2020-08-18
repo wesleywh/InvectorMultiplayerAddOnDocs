@@ -12,13 +12,13 @@ Select the function name from below to jump directly to it on this page.
 [Update](#Update)<br>
 
 ------------------
-### void Update()<a name="Update"></a>
+### protected virtual void Update()<a name="Update"></a>
 
 >   Calls the `NetworkOnPressInput` when the owner player presses the selected input button. It triggers the `OnPressInput` UnityEvent for all the network players as well as the owner. 
 
 | Expose Value | Overrideable | Returns |
 |:---|:---|---:|
-|private|False|Does not return anything|
+|protected|True|Does not return anything|
 
 **No parameters**
 

@@ -39,26 +39,13 @@ Select the parameter name from below to jump directly to it on this page.
 
 Select the function name from below to jump directly to it on this page.
 
-[Awake](#Awake)<br>
 [SetPlayerName](#SetPlayerName)<br>
-
-------------------
-### public virtual void Awake()<a name="Awake"></a>
-
->   Removes the namebar if you're the owner player. Also sets the name on your networked versions via `SetPlayerName` function. 
-
-| Expose Value | Overrideable | Returns |
-|:---|:---|---:|
-|public|True|Does not return anything|
-
-**No parameters**
-
-[Back To Top](#)
+[Start](#Start)<br>
 
 ------------------
 ### public virtual void SetPlayerName(string nameText)<a name="SetPlayerName"></a>
 
->   Sets the name shown on the name bar to whatever is passed in via the input. Calls `NetworkSetPlayerName` RPC to set the name over the network. 
+>   Sets the name shown on the name bar to whatever is passed in via the input. 
 
 | Expose Value | Overrideable | Returns |
 |:---|:---|---:|
@@ -67,6 +54,19 @@ Select the function name from below to jump directly to it on this page.
 | Parameter Name | Description |
 |:---|:---|
 |nameText|string type, the input name|
+
+[Back To Top](#)
+
+------------------
+### public virtual void Start()<a name="Start"></a>
+
+>   Removes the namebar if you're the owner player. Also sets the name on your networked versions via `SetPlayerName` function. Sets this player's name on the name bar based on the owner id if the photon view. Will find the player that owns this PhotonView and attach that players Nickname to this name bar. 
+
+| Expose Value | Overrideable | Returns |
+|:---|:---|---:|
+|public|True|Does not return anything|
+
+**No parameters**
 
 [Back To Top](#)
 

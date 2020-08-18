@@ -16,8 +16,10 @@ Select the function name from below to jump directly to it on this page.
 [OnDisableAttack](#OnDisableAttack)<br>
 [OnEnableAttack](#OnEnableAttack)<br>
 [OnRecoil](#OnRecoil)<br>
+[ReceivePulledTrigger](#ReceivePulledTrigger)<br>
 [ResetAttackTriggers](#ResetAttackTriggers)<br>
 [ResetShooterAnimations](#ResetShooterAnimations)<br>
+[SendPulledTrigger](#SendPulledTrigger)<br>
 [TriggerStrongAttack](#TriggerStrongAttack)<br>
 [TriggerWeakAttack](#TriggerWeakAttack)<br>
 [Update](#Update)<br>
@@ -116,6 +118,19 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
+### protected virtual void ReceivePulledTrigger()<a name="ReceivePulledTrigger"></a>
+
+>   This is only used by networked versions of players to receive when the owner player is pulling or releasing the trigger to the shooter weapon. It is responsible for firing the target weapon or to stop firing the target weapon. 
+
+| Expose Value | Overrideable | Returns |
+|:---|:---|---:|
+|protected|True|Does not return anything|
+
+**No parameters**
+
+[Back To Top](#)
+
+------------------
 ### public override void ResetAttackTriggers()<a name="ResetAttackTriggers"></a>
 
 >   Overrides default functionality of invector to only work if you're the owner player and will not work if this is called by a networked player. Als will reset the triggers for the networked players when called via the `ResetTriggers` RPC. 
@@ -136,6 +151,19 @@ Select the function name from below to jump directly to it on this page.
 | Expose Value | Overrideable | Returns |
 |:---|:---|---:|
 |public|True|Does not return anything|
+
+**No parameters**
+
+[Back To Top](#)
+
+------------------
+### protected virtual IEnumerator SendPulledTrigger()<a name="SendPulledTrigger"></a>
+
+>   This is only called by the owner player. This will send when the weapon trigger is pulled or released. This is used in combination with the `ReceivePulledTrigger` function. It will send the weapon that is firing/not firing, the ammo for it, and where it is firing to. 
+
+| Expose Value | Overrideable | Returns |
+|:---|:---|---:|
+|protected|True|Does not return anything|
 
 **No parameters**
 
@@ -170,7 +198,7 @@ Select the function name from below to jump directly to it on this page.
 ------------------
 ### protected override void Update()<a name="Update"></a>
 
->   Overrides default functionality of invector to only work if you're the owner player and will not work if this is called by a networked player. 
+>   Overrides default functionality of invector to only work if you're the owner player and will not work if this is called by a networked player. Also calls the `ReceivePulledTrigger` function if a networked version of a player or the `SendPulledTrigger` function if the owner player. 
 
 | Expose Value | Overrideable | Returns |
 |:---|:---|---:|

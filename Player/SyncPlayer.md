@@ -23,7 +23,7 @@ Select the parameter name from below to jump directly to it on this page.
 
 | Exposed Value | Type | Default Value |
 |:---|:---|---:|
-|protected |float|17.0f
+|public |float|5.0f
 
 [Back To Top](#)
 
@@ -34,7 +34,7 @@ Select the parameter name from below to jump directly to it on this page.
 
 | Exposed Value | Type | Default Value |
 |:---|:---|---:|
-|protected |float|17.0f
+|public |float|5.0f
 
 [Back To Top](#)
 
@@ -95,6 +95,7 @@ Select the function name from below to jump directly to it on this page.
 [Respawn](#Respawn)<br>
 [SetBodyPart](#SetBodyPart)<br>
 [SetBodyParts](#SetBodyParts)<br>
+[SetBoneSettings](#SetBoneSettings)<br>
 [SetLayer](#SetLayer)<br>
 [SetTags](#SetTags)<br>
 [Start](#Start)<br>
@@ -368,9 +369,9 @@ Select the function name from below to jump directly to it on this page.
 [Back To Top](#)
 
 ------------------
-### protected virtual void SetBodyParts(bool isTrigger)<a name="SetBodyParts"></a>
+### protected virtual IEnumerator SetBodyParts(bool isTrigger)<a name="SetBodyParts"></a>
 
->   Turns the triggers on/off for the body parts of the player based on the input value. 
+>   Turns the triggers on/off for the body parts of the player based on the input value. Will wait for the bones to be assigned in the avatar before continueing. This makes this work with UMA characters a little better. 
 
 | Expose Value | Overrideable | Returns |
 |:---|:---|---:|
@@ -379,6 +380,19 @@ Select the function name from below to jump directly to it on this page.
 | Parameter Name | Description |
 |:---|:---|
 |isTrigger|bool type, enable the triggers for all the body parts?|
+
+[Back To Top](#)
+
+------------------
+### protected virtual IEnumerator SetBoneSettings()<a name="SetBoneSettings"></a>
+
+>   This is a way to wait until the bones on the avatar are assigned before attempting to access them. This is designed to work a little better with UMA characters. Calls the SetLayer and SetTags functions. 
+
+| Expose Value | Overrideable | Returns |
+|:---|:---|---:|
+|protected|True|Does not return anything|
+
+**No parameters**
 
 [Back To Top](#)
 
