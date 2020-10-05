@@ -29,7 +29,7 @@ This is more simple than the previous approach. It's best to reset the files pri
 ... etc
 3. Click out of Unity and back in to let it recompile
 
-When done run the following menu items:
+When done reseting the files, import the new code from either github or the asset store. Then the new code has finished importing into the project run through the following menus:
 
 1. CB Games > Convert > Invector Files
 2. Click out of Unity and back in to let it recompile
